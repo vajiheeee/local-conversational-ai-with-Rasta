@@ -1,0 +1,19 @@
+# Ignore Python Virtual Environments
+.venv/
+env/
+__pycache__/
+
+# Ignore Rasa Caches and Heavy Models
+.rasa/
+models/*.tar.gz
+
+# Ignore Heavy Audio and Results Folders
+input voices wav/
+results/
+Recorded Voices/
+
+# Ignore zipped backups
+*.zip
+
+# Ignore Piper TTS binary
+piper/

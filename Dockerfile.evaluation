@@ -1,0 +1,56 @@
+# ==============================================================================
+# Voice Processing & Evaluation Image
+# ==============================================================================
+# Handles the heavy models (Whisper ASR, Piper TTS) used for testing the bot.
+# Pre-caches the Whisper model weights during the build phase to significantly 
+# reduce startup times during automated evaluation cycles.
+# ==============================================================================
+
+FROM python:3.10-slim
+
+# Install system dependencies for audio processing and TTS
+RUN apt-get update && apt-get install -y \
+    wget \
+    curl \
+    ffmpeg \
+    libsndfile1 \
+    libasound2 \
+    libasound2-plugins \
+    alsa-utils \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Piper TTS
+RUN wget -O piper.tar.gz https://github.com/rhasspy/piper/releases/download/2023.11.14-2/piper_linux_x86_64.tar.gz && \
+    tar -xzf piper.tar.gz && \
+    mv piper /opt/piper && \
+    ln -s /opt/piper/piper /usr/local/bin/piper && \
+    rm piper.tar.gz
+
+WORKDIR /app
+
+# Copy models
+COPY models/ ./models/
+
+# Copy evaluation script
+COPY run_assistant_evaluation.py .
+
+# Copy recorded voices
+COPY ["Recorded Voices/", "./Recorded Voices/"]
+
+# Install Python dependencies
+RUN pip install --no-cache-dir \
+    faster-whisper \
+    soundfile \
+    requests \
+    numpy
+
+# Create results directory
+RUN mkdir -p /app/results
+
+# Pre-download Whisper model
+RUN python -c "from faster_whisper import WhisperModel; WhisperModel('large-v3', device='cpu', compute_type='int8')"
+
+ENV PYTHONUNBUFFERED=1
+
+# Run evaluation when container starts
+CMD ["python", "run_assistant_evaluation.py"]

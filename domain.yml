@@ -1,0 +1,207 @@
+# ==============================================================================
+# Rasa Domain Definition
+# ==============================================================================
+# This file serves as the universe of the assistant. It defines all intents, 
+# entities, slots, forms, and predefined text responses (utterances).
+# 
+# Key Features:
+# - Custom Form (`calendar_form`): Implements dynamic slot mapping.
+# - Advanced Slot Mappings: Uses specific conditions to prevent cross-contamination
+#   of entities during complex context-switching.
+# ==============================================================================
+version: "3.1"
+
+intents:
+  - greet
+  - stop
+  - inform
+  - ask_weather
+  - calendar_add
+  - calendar_list
+  - calendar_delete
+  - calendar_update
+  - calendar_delete_previous
+  - goodbye
+  - affirm
+  - deny
+  - skip
+
+entities:
+  - GPE
+  - time
+  - event_title
+  - location
+
+slots:
+  # --- TITLE ---
+  event_title:
+    type: text
+    mappings:
+      # Trigger: Only at the start
+      - type: from_entity
+        entity: event_title
+        intent: calendar_add
+        conditions:
+          - active_loop: null
+      
+      # Correction: Only if SPECIFICALLY asked for
+      - type: from_entity
+        entity: event_title
+        conditions:
+          - active_loop: calendar_form
+          - requested_slot: event_title
+
+      # Fallback: Only if SPECIFICALLY asked for
+      - type: from_text
+        conditions:
+          - active_loop: calendar_form
+          - requested_slot: event_title
+        not_intent: [stop, skip, ask_weather, calendar_list, calendar_delete, goodbye]
+
+  # --- DATE ---
+  target_date:
+    type: text
+    mappings:
+      # Trigger
+      - type: from_entity
+        entity: time
+        intent: calendar_add
+        conditions:
+          - active_loop: null
+
+      # Correction: Only if SPECIFICALLY asked for
+      - type: from_entity
+        entity: time
+        conditions:
+          - active_loop: calendar_form
+          - requested_slot: target_date
+
+      # Fallback: Only if SPECIFICALLY asked for
+      - type: from_text
+        conditions:
+          - active_loop: calendar_form
+          - requested_slot: target_date
+        not_intent: [stop, skip, ask_weather, calendar_list, calendar_delete, goodbye]
+
+  # --- LOCATION ---
+  location:
+    type: text
+    influence_conversation: false
+    mappings:
+      # Priority 1: Skip
+      - type: from_intent
+        intent: skip
+        value: "No Location"
+        conditions:
+          - active_loop: calendar_form
+          - requested_slot: location
+
+      # Priority 2: Entities (GPE or location)
+      - type: from_entity
+        entity: location
+        conditions:
+          - active_loop: calendar_form
+          - requested_slot: location
+      - type: from_entity
+        entity: GPE
+        conditions:
+          - active_loop: calendar_form
+          - requested_slot: location
+
+      # Priority 3: Text Fallback
+      - type: from_text
+        conditions:
+          - active_loop: calendar_form
+          - requested_slot: location
+        not_intent: [stop, skip, ask_weather, calendar_list, calendar_delete, goodbye]
+
+      # Contextual Updates (Outside Form)
+      - type: from_entity
+        entity: location
+        intent: [inform, calendar_update]
+        conditions:
+          - active_loop: null
+      - type: from_entity
+        entity: GPE
+        intent: [inform, calendar_update]
+        conditions:
+          - active_loop: null
+        
+# --- OTHER SLOTS ---
+  weather_location:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: GPE
+
+  last_created_appointment:
+    type: text
+    mappings:
+      - type: custom
+
+  last_interaction_id:
+    type: text
+    mappings:
+      - type: custom
+
+  # --- Confirming Delete ---
+  confirm_delete:
+    type: bool
+    influence_conversation: false
+    mappings:
+      - type: from_intent
+        intent: affirm
+        value: true
+      - type: from_intent
+        intent: deny
+        value: false
+
+forms:
+  calendar_form:
+    required_slots:
+      - event_title
+      - target_date
+      - location
+
+responses:
+  utter_greet:
+  - text: "Hi there! How can I assist you today?"
+
+  utter_ask_event_title:
+  - text: "What is the title of the event?"
+  - text: "Please provide the title for the appointment."
+
+  utter_ask_target_date:
+  - text: "When should I schedule this event?"
+
+  utter_ask_location:
+  - text: "Where will this event take place? (Say 'no location' if you want no location to be specified)"
+  - text: "Please provide the location. (Say 'no location' if you want no location to be specified)"
+
+  utter_submit:
+  - text: "Your appointment '{event_title}' has been scheduled for {target_date} at {location}."
+
+  utter_cancelled:
+  - text: "Okay, request cancelled."
+  
+  utter_default:
+  - text: "I'm sorry, I didn't catch that. Could you please rephrase?"
+
+  utter_goodbye:
+  - text: "Bye! Have a nice day!"
+
+actions:
+  - action_check_weather
+  - action_create_appointment
+  - action_delete_appointment
+  - action_delete_previous_appointment
+  - action_list_appointments
+  - validate_calendar_form
+  - action_deactivate_loop
+  - action_update_appointment
+  - action_reset_form_slots
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: false

@@ -1,0 +1,71 @@
+# ==============================================================================
+# Multi-Container Orchestration
+# ==============================================================================
+# This Compose file defines the microservices architecture for the voice assistant.
+# 
+# Services:
+# 1. duckling: Local Haskell-based temporal entity extraction server.
+# 2. rasa: The core NLU and Dialogue Management engine + Action Server.
+# 3. evaluation: An isolated container that runs the automated test suite 
+#    (Whisper -> Rasa -> Piper TTS) via a simulated audio queue.
+# ==============================================================================
+version: '3.8'
+
+services:
+  duckling:
+    image: rasa/duckling:latest
+    ports:
+      - "8000:8000"
+    networks:
+      - rasa-network
+
+
+  rasa:
+    build:
+      context: .  
+      dockerfile: Dockerfile.rasa
+    ports:
+      - "5005:5005"
+      - "5055:5055"
+    depends_on:
+      duckling:
+        condition: service_started
+    networks:
+      - rasa-network
+    environment:
+      # Internal routing
+      - RASA_DUCKLING_HTTP_URL=http://duckling:8000
+      # External API bridging (passed from host machine or .env file)
+      - CALENDAR_ID=${CALENDAR_ID:-DEFAULT_USER_ID}
+      - CALENDAR_API_URL=${CALENDAR_API_URL:-http://localhost/calendar}
+      - WEATHER_API_URL=${WEATHER_API_URL:-http://localhost/weather}
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5005"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+      start_period: 40s
+    entrypoint: []
+    command: >
+      sh -c "
+      rasa run actions --port 5055 &
+      rasa run --enable-api --cors '*' --port 5005 --debug
+      "
+
+  evaluation:
+    build:
+      context: .
+      dockerfile: Dockerfile.evaluation
+    depends_on:
+      rasa:
+        condition: service_healthy
+    networks:
+      - rasa-network
+    environment:
+      - RASA_URL=http://rasa:5005/webhooks/rest/webhook
+    volumes:
+      - ./results:/app/results
+
+networks:
+  rasa-network:
+    driver: bridge

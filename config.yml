@@ -1,0 +1,86 @@
+# ==============================================================================
+# Rasa NLU & Core Configuration
+# ==============================================================================
+# This file defines the machine learning pipeline and dialogue management policies.
+# 
+# Pipeline Highlights:
+# - SpacyNLP: Provides dense pre-trained word embeddings.
+# - DucklingEntityExtractor: Handles robust temporal and numeric parsing.
+# - DIETClassifier: Dual Intent and Entity Transformer for joint classification.
+# - FallbackClassifier: Prevents hallucination on low-confidence inputs.
+#
+# Policy Highlights:
+# - RulePolicy: Enforces deterministic constraints (e.g., forms, fallbacks).
+# - TEDPolicy: Transformer Embedding Dialogue for probabilistic, context-aware routing.
+# ==============================================================================
+recipe: default.v1
+assistant_id: 20260106-162323-vicious-gate
+language: en
+
+pipeline:
+  # 1. SpacyNLP: Loads the pre-trained language model
+  - name: SpacyNLP
+    model: "en_core_web_md"
+    case_sensitive: false
+
+  # 2. Tokenizer & Featurizers
+  - name: SpacyTokenizer
+  - name: SpacyFeaturizer
+  - name: RegexFeaturizer
+  - name: LexicalSyntacticFeaturizer
+  - name: CountVectorsFeaturizer
+  - name: CountVectorsFeaturizer
+    analyzer: char_wb
+    min_ngram: 1
+    max_ngram: 4
+
+  # Based on RASA's youtube recommendation, we used Duckling for date/time parsing
+  - name: DucklingEntityExtractor
+    url: "${RASA_DUCKLING_HTTP_URL:-http://localhost:8000}"
+    dimensions: ['time']
+    timezone: "Europe/Berlin"
+    locale: "en_US"
+  
+  - name: RegexEntityExtractor
+    case_sensitive: false
+    use_lookup_tables: true
+    use_regexes: true
+
+  - name: SpacyEntityExtractor
+    dimensions: ["GPE"]
+
+  # 3. Classifier: DIET handles Intents + Entities
+  - name: DIETClassifier
+    epochs: 200
+    constrain_similarities: true
+    model_confidence: "softmax"
+    
+  # 4. Synonym Mapper
+  - name: EntitySynonymMapper
+  
+  # 5. Response Selector: For FAQs
+  - name: ResponseSelector
+    epochs: 100
+    constrain_similarities: true
+    
+  # 6. fallback: prevents hallucination when confidence is low
+  - name: FallbackClassifier
+    threshold: 0.3
+    ambiguity_threshold: 0.1
+
+policies:
+  # 1. Rules / allows to impose a strict rule-based behavior
+  - name: RulePolicy
+
+  # 2. TED / Transformer Embedding Dialogue
+  - name: TEDPolicy
+    max_history: 5
+    epochs: 200
+    constrain_similarities: true
+
+  # 3. Memoization: Remembers stories from stories.yml
+  - name: MemoizationPolicy
+
+  - name: UnexpecTEDIntentPolicy
+    max_history: 5
+    epochs: 100

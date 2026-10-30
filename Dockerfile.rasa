@@ -1,0 +1,37 @@
+# ==============================================================================
+# Rasa Production Image
+# ==============================================================================
+# Builds a self-contained environment for the Rasa Dialogue Manager and Custom 
+# Action Server. It trains the NLU/Core model during the build phase to ensure 
+# the image is strictly immutable and ready for immediate deployment.
+# ==============
+
+FROM rasa/rasa:3.6.20-full
+
+# Switch to root to install packages and setup permissions
+USER root
+
+# Set working directory
+WORKDIR /app
+
+# Copy Rasa files
+COPY config.yml domain.yml credentials.yml endpoints.yml ./
+COPY data/ ./data/
+COPY actions/ ./actions/
+
+# Install additional Python dependencies for actions
+RUN pip install --no-cache-dir \
+    requests \
+    dateparser
+
+# Train the model
+RUN rasa train
+
+# Switch back to rasa user
+USER 1001
+
+# Expose ports
+EXPOSE 5005 5055
+
+# Default command (overridden by docker-compose)
+CMD ["rasa", "run", "--enable-api", "--cors", "*"]

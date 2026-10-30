@@ -1,0 +1,52 @@
+version: '3.8'
+
+services:
+  duckling:
+    image: rasa/duckling:latest
+    ports:
+      - "8000:8000"
+    networks:
+      - rasa-network
+
+  rasa:
+    image: project-rasa:latest
+    ports:
+      - "5005:5005"
+      - "5055:5055"
+    depends_on:
+      duckling:
+        condition: service_started
+    networks:
+      - rasa-network
+    environment:
+      - RASA_DUCKLING_HTTP_URL=http://duckling:8000
+    # Patient healthcheck
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5005"]
+      interval: 10s
+      timeout: 10s
+      retries: 20
+      start_period: 40s
+    entrypoint: []
+    command: >
+      sh -c "
+      rasa run actions --port 5055 &
+      rasa run --enable-api --cors '*' --port 5005
+      "
+
+  evaluation:
+    image: project-evaluation:latest
+    depends_on:
+      rasa:
+        condition: service_healthy
+    networks:
+      - rasa-network
+    environment:
+      - RASA_URL=http://rasa:5005/webhooks/rest/webhook
+    volumes:
+      # Map results so they appear on the host computer
+      - ./results:/app/results
+
+networks:
+  rasa-network:
+    driver: bridge

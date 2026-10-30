@@ -1,0 +1,49 @@
+# Voice Assistant Project via:
+- Seyed Soheil Kafaei Kashefi Moghaddam, 3844751
+- Mahdi Ramezani, 3830578
+- Arshia Orangkhadivi, 3844777
+- Vajihe Ansari, 3871580
+
+# Voice Assistant (Pre-Built Version)
+This folder contains the pre-built Docker images for the Voice Assistant.
+No internet connection or building is required to run this.
+
+# Project Description:
+This project is a dockerized voice assistant that manages calendar and checks weather for different locations.
+It uses:
+- **Rasa**: For NLU and Dialogue Management.
+- **Whisper (Faster-Whisper)**: For Speech-to-Text (STT).
+- **Piper**: For Text-to-Speech (TTS).
+
+## How to Run 1
+
+1. Open a terminal in this folder.
+
+2. Load the images into Docker (This may take a few minutes):
+   docker load -i rasa_brain.tar
+   docker load -i evaluation_body.tar
+   docker load -i duckling.tar
+
+3. Start the system:
+   docker-compose -f docker-compose-baked.yml up
+
+4. The assistant will start processing the audio commands.
+   The output audio files will be saved in the "results" folder.
+
+## How to Run 2
+
+ 1. For windows:
+	- please double click on the build_and_save.bat file.
+ 2. For Linux:
+	- First open terminal
+	- then make build_and_save.sh file executable: chmod +x build_and_save.sh
+ 	- finally, run it: ./build_and_save.sh 
+
+
+## Expected Output
+1. The system will build the containers and train the Rasa model.
+2. The `evaluation` container will automatically transcribe the audio files from voices that has been provided.
+3. You will see the conversation logs in the terminal.
+4. The assistant's audio responses (TTS) will be generated in the `results/` folder.
+5. For your convenience, an evaluation table is provided in the output along with a section to check if the model passed the tests correctly. The commands used are the same as those mentioned in the Project Description file on Ilias.
+6. The intrinsic evaluation using Rasa's built-in cross-validation function, can be found in folder "Evaluation Intrinsic".

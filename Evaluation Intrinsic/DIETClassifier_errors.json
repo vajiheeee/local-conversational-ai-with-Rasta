@@ -1,0 +1,184 @@
+[
+  {
+    "text": "Restaurant",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "Restaurant",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 10,
+        "value": "Restaurant",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.5677194595336914,
+        "value": "Restaurant",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Lahnberg",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "Lahnberg",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 8,
+        "value": "Lahnberg",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.5458100438117981,
+        "value": "Lahnberg",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Gutenbergstraße",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "Gutenbergstraße",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 15,
+        "value": "Gutenbergstraße",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 15,
+        "confidence_entity": 0.5285294651985168,
+        "value": "Gutenbergstraße",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Library",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "Library",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 7,
+        "value": "Library",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "GPE",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.46762391924858093,
+        "value": "Library",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Room 242",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "Room 242",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 8,
+        "value": "Room 242",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "GPE",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.6091838479042053,
+        "value": "Room 242",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "modify the location for tomorrows event",
+    "entities": [
+      {
+        "start": 24,
+        "end": 32,
+        "value": "tomorrow",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

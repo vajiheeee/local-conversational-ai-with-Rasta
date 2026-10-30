@@ -1,0 +1,7432 @@
+[
+  {
+    "text": "actually i meant friday",
+    "entities": [
+      {
+        "start": 17,
+        "end": 23,
+        "value": "friday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 17,
+        "end": 23,
+        "confidence_entity": 0.9990122318267822,
+        "value": "friday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "the title is team meeting",
+    "entities": [
+      {
+        "start": 13,
+        "end": 25,
+        "value": "team meeting",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 13,
+        "end": 25,
+        "confidence_entity": 0.9977307915687561,
+        "value": "team meeting",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "call it lunch with mom",
+    "entities": [
+      {
+        "start": 8,
+        "end": 22,
+        "value": "lunch with mom",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 8,
+        "end": 22,
+        "confidence_entity": 0.9980452060699463,
+        "value": "lunch with mom",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Frankfurt",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "Frankfurt",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.9874528050422668,
+        "value": "Frankfurt",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Berlin",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "Berlin",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9964926838874817,
+        "value": "Berlin",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "just Marburg",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "Marburg",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 5,
+        "end": 12,
+        "confidence_entity": 0.995130181312561,
+        "value": "Marburg",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Berlin please",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "Berlin",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9985384941101074,
+        "value": "Berlin",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "the location is Marburg",
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "value": "Marburg",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 16,
+        "end": 23,
+        "confidence_entity": 0.9980081915855408,
+        "value": "Marburg",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "the place is Munich",
+    "entities": [
+      {
+        "start": 13,
+        "end": 19,
+        "value": "Munich",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 13,
+        "end": 19,
+        "confidence_entity": 0.9993564486503601,
+        "value": "Munich",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "location is Hamburg",
+    "entities": [
+      {
+        "start": 12,
+        "end": 19,
+        "value": "Hamburg",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 12,
+        "end": 19,
+        "confidence_entity": 0.9993106126785278,
+        "value": "Hamburg",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "place is Cologne",
+    "entities": [
+      {
+        "start": 9,
+        "end": 16,
+        "value": "Cologne",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 9,
+        "end": 16,
+        "confidence_entity": 0.9976518750190735,
+        "value": "Cologne",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "at the office",
+    "entities": [
+      {
+        "start": 7,
+        "end": 13,
+        "value": "office",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 7,
+        "end": 13,
+        "confidence_entity": 0.9895065426826477,
+        "value": "office",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "in the conference room",
+    "entities": [
+      {
+        "start": 7,
+        "end": 22,
+        "value": "conference room",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 7,
+        "end": 22,
+        "confidence_entity": 0.8512478470802307,
+        "value": "conference room",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tomorrow",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "tomorrow",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.9946706891059875,
+        "value": "tomorrow",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "next Monday",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "next Monday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 0,
+        "end": 11,
+        "confidence_entity": 0.9944283962249756,
+        "value": "next Monday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "this evening",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "this evening",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 0,
+        "end": 12,
+        "confidence_entity": 0.999752938747406,
+        "value": "this evening",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "it is in frankfurt",
+    "entities": [
+      {
+        "start": 9,
+        "end": 18,
+        "value": "frankfurt",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 9,
+        "end": 18,
+        "confidence_entity": 0.9992910623550415,
+        "value": "Frankfurt",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Restaurant",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "Restaurant",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 10,
+        "value": "Restaurant",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.5677194595336914,
+        "value": "Restaurant",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Library",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "Library",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 7,
+        "value": "Library",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "GPE",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.46762391924858093,
+        "value": "Library",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Room 242",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "Room 242",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 8,
+        "value": "Room 242",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "GPE",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.6091838479042053,
+        "value": "Room 242",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "FrankfurtStraße",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "FrankfurtStraße",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 15,
+        "value": "FrankfurtStraße",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "GPE",
+        "start": 0,
+        "end": 15,
+        "confidence_entity": 0.5457996129989624,
+        "value": "FrankfurtStraße",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Lahnberg",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "Lahnberg",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 8,
+        "value": "Lahnberg",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.5458100438117981,
+        "value": "Lahnberg",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Gutenbergstraße",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "Gutenbergstraße",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 15,
+        "value": "Gutenbergstraße",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 15,
+        "confidence_entity": 0.5285294651985168,
+        "value": "Gutenbergstraße",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Restaurants",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "Restaurants",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 0,
+        "end": 11,
+        "confidence_entity": 0.9300475120544434,
+        "value": "Restaurants",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "how is the weather in Marburg",
+    "entities": [
+      {
+        "start": 22,
+        "end": 29,
+        "value": "Marburg",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 22,
+        "end": 29,
+        "confidence_entity": 0.9995610117912292,
+        "value": "Marburg",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "will it rain in Marburg",
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "value": "Marburg",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 16,
+        "end": 23,
+        "confidence_entity": 0.9993088245391846,
+        "value": "Marburg",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "weather for tomorrow",
+    "entities": [
+      {
+        "start": 12,
+        "end": 20,
+        "value": "tomorrow",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 12,
+        "end": 20,
+        "confidence_entity": 0.9997324347496033,
+        "value": "tomorrow",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tell me the forecast for Friday",
+    "entities": [
+      {
+        "start": 25,
+        "end": 31,
+        "value": "Friday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 25,
+        "end": 31,
+        "confidence_entity": 0.9992613196372986,
+        "value": "friday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "is it sunny in Marburg on Saturday",
+    "entities": [
+      {
+        "start": 15,
+        "end": 22,
+        "value": "Marburg",
+        "entity": "GPE"
+      },
+      {
+        "start": 26,
+        "end": 34,
+        "value": "Saturday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 15,
+        "end": 22,
+        "confidence_entity": 0.9994743466377258,
+        "value": "Marburg",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 26,
+        "end": 34,
+        "confidence_entity": 0.9992218017578125,
+        "value": "Saturday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "is it sunny in Marburg?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 22,
+        "value": "Marburg",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 15,
+        "end": 22,
+        "confidence_entity": 0.9993187189102173,
+        "value": "Marburg",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "check weather for today in Frankfurt am Main",
+    "entities": [
+      {
+        "start": 18,
+        "end": 23,
+        "value": "today",
+        "entity": "time"
+      },
+      {
+        "start": 27,
+        "end": 44,
+        "value": "Frankfurt am Main",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 18,
+        "end": 23,
+        "confidence_entity": 0.9997077584266663,
+        "value": "today",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "GPE",
+        "start": 27,
+        "end": 44,
+        "confidence_entity": 0.9097023010253906,
+        "value": "Frankfurt",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "what's the weather like in Marburg?",
+    "entities": [
+      {
+        "start": 27,
+        "end": 34,
+        "value": "Marburg",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 27,
+        "end": 34,
+        "confidence_entity": 0.9995484948158264,
+        "value": "Marburg",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "What will the weather be like today in Marburg?",
+    "entities": [
+      {
+        "start": 30,
+        "end": 35,
+        "value": "today",
+        "entity": "time"
+      },
+      {
+        "start": 39,
+        "end": 46,
+        "value": "Marburg",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 30,
+        "end": 35,
+        "confidence_entity": 0.9997164607048035,
+        "value": "today",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "GPE",
+        "start": 39,
+        "end": 46,
+        "confidence_entity": 0.9994107484817505,
+        "value": "Marburg",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "what will the weather be on Friday in Frankfurt?",
+    "entities": [
+      {
+        "start": 28,
+        "end": 34,
+        "value": "Friday",
+        "entity": "time"
+      },
+      {
+        "start": 38,
+        "end": 47,
+        "value": "Frankfurt",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 28,
+        "end": 34,
+        "confidence_entity": 0.999889612197876,
+        "value": "friday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "GPE",
+        "start": 38,
+        "end": 47,
+        "confidence_entity": 0.9991219639778137,
+        "value": "Frankfurt",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Will it rain there on Saturday?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 30,
+        "value": "Saturday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 22,
+        "end": 30,
+        "confidence_entity": 0.999896764755249,
+        "value": "Saturday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "is it going to rain tomorrow",
+    "entities": [
+      {
+        "start": 20,
+        "end": 28,
+        "value": "tomorrow",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 20,
+        "end": 28,
+        "confidence_entity": 0.9995250701904297,
+        "value": "tomorrow",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "will it be sunny this weekend",
+    "entities": [
+      {
+        "start": 17,
+        "end": 29,
+        "value": "this weekend",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 17,
+        "end": 29,
+        "confidence_entity": 0.9991459846496582,
+        "value": "this weekend",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "what is the forecast for Munich",
+    "entities": [
+      {
+        "start": 25,
+        "end": 31,
+        "value": "Munich",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 25,
+        "end": 31,
+        "confidence_entity": 0.9995185136795044,
+        "value": "Munich",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "will it snow next week",
+    "entities": [
+      {
+        "start": 13,
+        "end": 22,
+        "value": "next week",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 13,
+        "end": 22,
+        "confidence_entity": 0.9996198415756226,
+        "value": "next week",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "what about the weather in Hamburg",
+    "entities": [
+      {
+        "start": 26,
+        "end": 33,
+        "value": "Hamburg",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 26,
+        "end": 33,
+        "confidence_entity": 0.9997101426124573,
+        "value": "Hamburg",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "is it raining in Cologne",
+    "entities": [
+      {
+        "start": 17,
+        "end": 24,
+        "value": "Cologne",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 17,
+        "end": 24,
+        "confidence_entity": 0.998996913433075,
+        "value": "Cologne",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "what is it like outside in Marburg",
+    "entities": [
+      {
+        "start": 27,
+        "end": 34,
+        "value": "Marburg",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 27,
+        "end": 34,
+        "confidence_entity": 0.9995763897895813,
+        "value": "Marburg",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "do i need a jacket in Berlin?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 28,
+        "value": "Berlin",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 22,
+        "end": 28,
+        "confidence_entity": 0.9995086193084717,
+        "value": "Berlin",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "do i need an umbrella for tomorrow?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 34,
+        "value": "tomorrow",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 26,
+        "end": 34,
+        "confidence_entity": 0.9999071359634399,
+        "value": "tomorrow",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "is it snowing in Munich?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 23,
+        "value": "Munich",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 17,
+        "end": 23,
+        "confidence_entity": 0.9997103810310364,
+        "value": "Munich",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "any storms predicted for Hamburg?",
+    "entities": [
+      {
+        "start": 25,
+        "end": 32,
+        "value": "Hamburg",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 25,
+        "end": 32,
+        "confidence_entity": 0.9996887445449829,
+        "value": "Hamburg",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "forecast for London next week",
+    "entities": [
+      {
+        "start": 13,
+        "end": 19,
+        "value": "London",
+        "entity": "GPE"
+      },
+      {
+        "start": 20,
+        "end": 29,
+        "value": "next week",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 13,
+        "end": 19,
+        "confidence_entity": 0.9975411891937256,
+        "value": "London",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 20,
+        "end": 29,
+        "confidence_entity": 0.9997127652168274,
+        "value": "next week",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "what is the weather in Paris on Sunday",
+    "entities": [
+      {
+        "start": 23,
+        "end": 28,
+        "value": "Paris",
+        "entity": "GPE"
+      },
+      {
+        "start": 32,
+        "end": 38,
+        "value": "Sunday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 23,
+        "end": 28,
+        "confidence_entity": 0.9934837222099304,
+        "value": "Paris",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 32,
+        "end": 38,
+        "confidence_entity": 0.9990204572677612,
+        "value": "Sunday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "how does it look outside in Marburg right now",
+    "entities": [
+      {
+        "start": 28,
+        "end": 35,
+        "value": "Marburg",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 28,
+        "end": 35,
+        "confidence_entity": 0.9995201826095581,
+        "value": "Marburg",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "give me the forecast for Marburg today",
+    "entities": [
+      {
+        "start": 25,
+        "end": 32,
+        "value": "Marburg",
+        "entity": "GPE"
+      },
+      {
+        "start": 33,
+        "end": 38,
+        "value": "today",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 25,
+        "end": 32,
+        "confidence_entity": 0.9995473027229309,
+        "value": "Marburg",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 33,
+        "end": 38,
+        "confidence_entity": 0.9954953193664551,
+        "value": "today",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "is it nice out in Marburg at the moment",
+    "entities": [
+      {
+        "start": 18,
+        "end": 25,
+        "value": "Marburg",
+        "entity": "GPE"
+      },
+      {
+        "start": 26,
+        "end": 39,
+        "value": "at the moment",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 18,
+        "end": 25,
+        "confidence_entity": 0.9993665814399719,
+        "value": "Marburg",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 26,
+        "end": 39,
+        "confidence_entity": 0.7050692439079285,
+        "value": "at the moment",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "whats the temperature in Marburg",
+    "entities": [
+      {
+        "start": 25,
+        "end": 32,
+        "value": "Marburg",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 25,
+        "end": 32,
+        "confidence_entity": 0.9995672106742859,
+        "value": "Marburg",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "report on weather conditions in Marburg",
+    "entities": [
+      {
+        "start": 32,
+        "end": 39,
+        "value": "Marburg",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 32,
+        "end": 39,
+        "confidence_entity": 0.9989252686500549,
+        "value": "Marburg",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "forecast for Frankfurt on Friday",
+    "entities": [
+      {
+        "start": 13,
+        "end": 22,
+        "value": "Frankfurt",
+        "entity": "GPE"
+      },
+      {
+        "start": 26,
+        "end": 32,
+        "value": "Friday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 13,
+        "end": 22,
+        "confidence_entity": 0.999302864074707,
+        "value": "Frankfurt",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 26,
+        "end": 32,
+        "confidence_entity": 0.999582827091217,
+        "value": "friday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "hows the weather looking for Frankfurt this Friday",
+    "entities": [
+      {
+        "start": 29,
+        "end": 38,
+        "value": "Frankfurt",
+        "entity": "GPE"
+      },
+      {
+        "start": 39,
+        "end": 50,
+        "value": "this Friday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 29,
+        "end": 38,
+        "confidence_entity": 0.9987658262252808,
+        "value": "Frankfurt",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 39,
+        "end": 50,
+        "confidence_entity": 0.9954811334609985,
+        "value": "this Friday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tell me about Friday in Frankfurt",
+    "entities": [
+      {
+        "start": 14,
+        "end": 20,
+        "value": "Friday",
+        "entity": "time"
+      },
+      {
+        "start": 24,
+        "end": 33,
+        "value": "Frankfurt",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 14,
+        "end": 20,
+        "confidence_entity": 0.9995001554489136,
+        "value": "friday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "GPE",
+        "start": 24,
+        "end": 33,
+        "confidence_entity": 0.9990755319595337,
+        "value": "Frankfurt",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "what should i wear in Frankfurt on Friday",
+    "entities": [
+      {
+        "start": 22,
+        "end": 31,
+        "value": "Frankfurt",
+        "entity": "GPE"
+      },
+      {
+        "start": 35,
+        "end": 41,
+        "value": "Friday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 22,
+        "end": 31,
+        "confidence_entity": 0.998913049697876,
+        "value": "Frankfurt",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 35,
+        "end": 41,
+        "confidence_entity": 0.9997356534004211,
+        "value": "friday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "check forecast Frankfurt Friday",
+    "entities": [
+      {
+        "start": 15,
+        "end": 24,
+        "value": "Frankfurt",
+        "entity": "GPE"
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "value": "Friday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 15,
+        "end": 24,
+        "confidence_entity": 0.9993340373039246,
+        "value": "Frankfurt",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 25,
+        "end": 31,
+        "confidence_entity": 0.998638927936554,
+        "value": "friday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "any rain for that place this weekend",
+    "entities": [
+      {
+        "start": 13,
+        "end": 23,
+        "value": "that place",
+        "entity": "GPE"
+      },
+      {
+        "start": 24,
+        "end": 36,
+        "value": "this weekend",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 13,
+        "end": 23,
+        "confidence_entity": 0.9684980511665344,
+        "value": "that place",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 24,
+        "end": 36,
+        "confidence_entity": 0.9993023872375488,
+        "value": "this weekend",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "sunny or cloudy in Hamburg tomorrow",
+    "entities": [
+      {
+        "start": 19,
+        "end": 26,
+        "value": "Hamburg",
+        "entity": "GPE"
+      },
+      {
+        "start": 27,
+        "end": 35,
+        "value": "tomorrow",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 19,
+        "end": 26,
+        "confidence_entity": 0.9993141889572144,
+        "value": "Hamburg",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 27,
+        "end": 35,
+        "confidence_entity": 0.9982417821884155,
+        "value": "tomorrow",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "how is the wind in Cologne",
+    "entities": [
+      {
+        "start": 19,
+        "end": 26,
+        "value": "Cologne",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 19,
+        "end": 26,
+        "confidence_entity": 0.9982947707176208,
+        "value": "Cologne",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "weather report for Stuttgart",
+    "entities": [
+      {
+        "start": 19,
+        "end": 28,
+        "value": "Stuttgart",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 19,
+        "end": 28,
+        "confidence_entity": 0.9991317391395569,
+        "value": "Stuttgart",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "check conditions for London next week",
+    "entities": [
+      {
+        "start": 21,
+        "end": 27,
+        "value": "London",
+        "entity": "GPE"
+      },
+      {
+        "start": 28,
+        "end": 37,
+        "value": "next week",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 21,
+        "end": 27,
+        "confidence_entity": 0.9977618455886841,
+        "value": "London",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 28,
+        "end": 37,
+        "confidence_entity": 0.9997038245201111,
+        "value": "next week",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "add an appointment titled Dentist",
+    "entities": [
+      {
+        "start": 26,
+        "end": 33,
+        "value": "Dentist",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 26,
+        "end": 33,
+        "confidence_entity": 0.9980685114860535,
+        "value": "Dentist",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "create event titled Team Meeting",
+    "entities": [
+      {
+        "start": 20,
+        "end": 32,
+        "value": "Team Meeting",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 20,
+        "end": 32,
+        "confidence_entity": 0.9992616772651672,
+        "value": "team meeting",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "add a meeting titled Project Discussion",
+    "entities": [
+      {
+        "start": 21,
+        "end": 39,
+        "value": "Project Discussion",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 21,
+        "end": 39,
+        "confidence_entity": 0.9992732405662537,
+        "value": "Project Discussion",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "schedule an event titled Lunch with friends for 14th of December",
+    "entities": [
+      {
+        "start": 25,
+        "end": 43,
+        "value": "Lunch with friends",
+        "entity": "event_title"
+      },
+      {
+        "start": 48,
+        "end": 64,
+        "value": "14th of December",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 25,
+        "end": 43,
+        "confidence_entity": 0.9960281848907471,
+        "value": "Lunch with friends",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 48,
+        "end": 64,
+        "confidence_entity": 0.998781144618988,
+        "value": "14th of December",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "book Lunch on Tuesday",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "Lunch",
+        "entity": "event_title"
+      },
+      {
+        "start": 14,
+        "end": 21,
+        "value": "Tuesday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 5,
+        "end": 10,
+        "confidence_entity": 0.9996079802513123,
+        "value": "Lunch",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 14,
+        "end": 21,
+        "confidence_entity": 0.9995805621147156,
+        "value": "Tuesday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "set up Gym for 5pm",
+    "entities": [
+      {
+        "start": 7,
+        "end": 10,
+        "value": "Gym",
+        "entity": "event_title"
+      },
+      {
+        "start": 15,
+        "end": 18,
+        "value": "5pm",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 15,
+        "end": 18,
+        "value": "5pm",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event_title",
+        "start": 7,
+        "end": 10,
+        "confidence_entity": 0.9944593906402588,
+        "value": "Gym",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 15,
+        "end": 18,
+        "confidence_entity": 0.9892900586128235,
+        "value": "5pm",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "add a meeting with John",
+    "entities": [
+      {
+        "start": 19,
+        "end": 23,
+        "value": "John",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 19,
+        "end": 23,
+        "confidence_entity": 0.9979052543640137,
+        "value": "John",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "schedule a call with Alice for next Monday",
+    "entities": [
+      {
+        "start": 21,
+        "end": 26,
+        "value": "Alice",
+        "entity": "event_title"
+      },
+      {
+        "start": 31,
+        "end": 42,
+        "value": "next Monday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 21,
+        "end": 26,
+        "confidence_entity": 0.997936487197876,
+        "value": "Alice",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 31,
+        "end": 42,
+        "confidence_entity": 0.9991137385368347,
+        "value": "next Monday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "new appointment with Dr. Smith on 10th of June",
+    "entities": [
+      {
+        "start": 21,
+        "end": 30,
+        "value": "Dr. Smith",
+        "entity": "event_title"
+      },
+      {
+        "start": 34,
+        "end": 46,
+        "value": "10th of June",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 21,
+        "end": 30,
+        "confidence_entity": 0.9701417088508606,
+        "value": "Dr. Smith",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 34,
+        "end": 46,
+        "confidence_entity": 0.9945358037948608,
+        "value": "10th of June",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "add an appointment titled Project Meeting",
+    "entities": [
+      {
+        "start": 26,
+        "end": 41,
+        "value": "Project Meeting",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 26,
+        "end": 41,
+        "confidence_entity": 0.9936508536338806,
+        "value": "Project Meeting",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "schedule Doctor for tomorrow",
+    "entities": [
+      {
+        "start": 9,
+        "end": 15,
+        "value": "Doctor",
+        "entity": "event_title"
+      },
+      {
+        "start": 20,
+        "end": 28,
+        "value": "tomorrow",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 9,
+        "end": 15,
+        "confidence_entity": 0.998340368270874,
+        "value": "Doctor",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 20,
+        "end": 28,
+        "confidence_entity": 0.9998252987861633,
+        "value": "tomorrow",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "book Dinner on Monday",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "Dinner",
+        "entity": "event_title"
+      },
+      {
+        "start": 15,
+        "end": 21,
+        "value": "Monday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.9996881484985352,
+        "value": "Dinner",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 15,
+        "end": 21,
+        "confidence_entity": 0.9996260404586792,
+        "value": "Monday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "for Wednesday, schedule Team Meeting",
+    "entities": [
+      {
+        "start": 4,
+        "end": 13,
+        "value": "Wednesday",
+        "entity": "time"
+      },
+      {
+        "start": 24,
+        "end": 36,
+        "value": "Team Meeting",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 4,
+        "end": 13,
+        "confidence_entity": 0.9996758699417114,
+        "value": "Wednesday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event_title",
+        "start": 24,
+        "end": 36,
+        "confidence_entity": 0.9990701079368591,
+        "value": "team meeting",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "set up an appointment for Monday",
+    "entities": [
+      {
+        "start": 26,
+        "end": 32,
+        "value": "Monday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 26,
+        "end": 32,
+        "confidence_entity": 0.9968100190162659,
+        "value": "Monday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "add a meeting with John on Friday",
+    "entities": [
+      {
+        "start": 19,
+        "end": 23,
+        "value": "John",
+        "entity": "event_title"
+      },
+      {
+        "start": 27,
+        "end": 33,
+        "value": "Friday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 19,
+        "end": 23,
+        "confidence_entity": 0.9991750121116638,
+        "value": "John",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 27,
+        "end": 33,
+        "confidence_entity": 0.9997320771217346,
+        "value": "friday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "schedule Denitst for tomorrow morning",
+    "entities": [
+      {
+        "start": 9,
+        "end": 16,
+        "value": "Denitst",
+        "entity": "event_title"
+      },
+      {
+        "start": 21,
+        "end": 37,
+        "value": "tomorrow morning",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 9,
+        "end": 16,
+        "confidence_entity": 0.9999791383743286,
+        "value": "Denitst",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 21,
+        "end": 37,
+        "confidence_entity": 0.9987871050834656,
+        "value": "tomorrow morning",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "book a meeting on Wednesday",
+    "entities": [
+      {
+        "start": 18,
+        "end": 27,
+        "value": "Wednesday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 18,
+        "end": 27,
+        "confidence_entity": 0.9998779296875,
+        "value": "Wednesday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "add an appointment titled XYZ for the 12th of January",
+    "entities": [
+      {
+        "start": 26,
+        "end": 29,
+        "value": "XYZ",
+        "entity": "event_title"
+      },
+      {
+        "start": 38,
+        "end": 53,
+        "value": "12th of January",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 26,
+        "end": 29,
+        "confidence_entity": 0.9993938207626343,
+        "value": "XYZ",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 38,
+        "end": 53,
+        "confidence_entity": 0.9982361793518066,
+        "value": "12th of January",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "add Conference at 3pm",
+    "entities": [
+      {
+        "start": 4,
+        "end": 14,
+        "value": "Conference",
+        "entity": "event_title"
+      },
+      {
+        "start": 18,
+        "end": 21,
+        "value": "3pm",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 18,
+        "end": 21,
+        "value": "3pm",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 15,
+        "end": 19,
+        "value": "at 3",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "event_title",
+        "start": 4,
+        "end": 14,
+        "confidence_entity": 0.995934247970581,
+        "value": "Conference",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 18,
+        "end": 21,
+        "confidence_entity": 0.990965723991394,
+        "value": "3pm",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "schedule an appointment titled Doctor for the 8th of Feburary",
+    "entities": [
+      {
+        "start": 31,
+        "end": 37,
+        "value": "Doctor",
+        "entity": "event_title"
+      },
+      {
+        "start": 42,
+        "end": 61,
+        "value": "the 8th of Feburary",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 31,
+        "end": 37,
+        "confidence_entity": 0.9990711212158203,
+        "value": "Doctor",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 42,
+        "end": 61,
+        "confidence_entity": 0.9955651164054871,
+        "value": "the 8th of Feburary",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "make an appointment for next week",
+    "entities": [
+      {
+        "start": 24,
+        "end": 33,
+        "value": "next week",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 24,
+        "end": 33,
+        "confidence_entity": 0.9997501969337463,
+        "value": "next week",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "add appoinment titled Lunch",
+    "entities": [
+      {
+        "start": 22,
+        "end": 27,
+        "value": "Lunch",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 22,
+        "end": 27,
+        "confidence_entity": 0.9964475631713867,
+        "value": "Lunch",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "at an appointment titled Dentist",
+    "entities": [
+      {
+        "start": 25,
+        "end": 32,
+        "value": "Dentist",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 25,
+        "end": 32,
+        "confidence_entity": 0.999825656414032,
+        "value": "Dentist",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "at an appointment called Meeting",
+    "entities": [
+      {
+        "start": 25,
+        "end": 32,
+        "value": "Meeting",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 25,
+        "end": 32,
+        "confidence_entity": 0.9996286630630493,
+        "value": "Meeting",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "had an appointment titled Lunch",
+    "entities": [
+      {
+        "start": 26,
+        "end": 31,
+        "value": "Lunch",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 26,
+        "end": 31,
+        "confidence_entity": 0.9982269406318665,
+        "value": "Lunch",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "schedule an appointment titled Doctor for the 8th of Feburary in University Library",
+    "entities": [
+      {
+        "start": 31,
+        "end": 37,
+        "value": "Doctor",
+        "entity": "event_title"
+      },
+      {
+        "start": 42,
+        "end": 61,
+        "value": "the 8th of Feburary",
+        "entity": "time"
+      },
+      {
+        "start": 65,
+        "end": 83,
+        "value": "University Library",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 65,
+        "end": 83,
+        "value": "University Library",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event_title",
+        "start": 31,
+        "end": 37,
+        "confidence_entity": 0.9994315505027771,
+        "value": "Doctor",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 42,
+        "end": 61,
+        "confidence_entity": 0.9964679479598999,
+        "value": "the 8th of Feburary",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "GPE",
+        "start": 65,
+        "end": 83,
+        "confidence_entity": 0.9902980923652649,
+        "value": "University Library",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "add an appointment titled Doctor for the 8th of Feburary in University Library",
+    "entities": [
+      {
+        "start": 26,
+        "end": 32,
+        "value": "Doctor",
+        "entity": "event_title"
+      },
+      {
+        "start": 37,
+        "end": 56,
+        "value": "the 8th of Feburary",
+        "entity": "time"
+      },
+      {
+        "start": 60,
+        "end": 78,
+        "value": "University Library",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 60,
+        "end": 78,
+        "value": "University Library",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event_title",
+        "start": 26,
+        "end": 32,
+        "confidence_entity": 0.9992252588272095,
+        "value": "Doctor",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 37,
+        "end": 56,
+        "confidence_entity": 0.9962822794914246,
+        "value": "the 8th of Feburary",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "GPE",
+        "start": 60,
+        "end": 78,
+        "confidence_entity": 0.9904691576957703,
+        "value": "University Library",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "had an appointment titled Doctor for the 8th of Feburary in University Library",
+    "entities": [
+      {
+        "start": 26,
+        "end": 32,
+        "value": "Doctor",
+        "entity": "event_title"
+      },
+      {
+        "start": 37,
+        "end": 56,
+        "value": "the 8th of Feburary",
+        "entity": "time"
+      },
+      {
+        "start": 60,
+        "end": 78,
+        "value": "University Library",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 60,
+        "end": 78,
+        "value": "University Library",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event_title",
+        "start": 26,
+        "end": 32,
+        "confidence_entity": 0.999414324760437,
+        "value": "Doctor",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 37,
+        "end": 56,
+        "confidence_entity": 0.9953314661979675,
+        "value": "the 8th of Feburary",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "GPE",
+        "start": 60,
+        "end": 78,
+        "confidence_entity": 0.9900146722793579,
+        "value": "University Library",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "i had an appointment titled Dentist",
+    "entities": [
+      {
+        "start": 28,
+        "end": 35,
+        "value": "Dentist",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 28,
+        "end": 35,
+        "confidence_entity": 0.9998794794082642,
+        "value": "Dentist",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "i have an appointment titled Meeting",
+    "entities": [
+      {
+        "start": 29,
+        "end": 36,
+        "value": "Meeting",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 29,
+        "end": 36,
+        "confidence_entity": 0.9994144439697266,
+        "value": "Meeting",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "i want an appointment titled Lunch",
+    "entities": [
+      {
+        "start": 29,
+        "end": 34,
+        "value": "Lunch",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 29,
+        "end": 34,
+        "confidence_entity": 0.9992826581001282,
+        "value": "Lunch",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "appointment for tomorrow",
+    "entities": [
+      {
+        "start": 16,
+        "end": 24,
+        "value": "tomorrow",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 16,
+        "end": 24,
+        "confidence_entity": 0.9998621940612793,
+        "value": "tomorrow",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "appointment on Friday",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "value": "Friday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 15,
+        "end": 21,
+        "confidence_entity": 0.9998310804367065,
+        "value": "friday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "schedule Soccer Practice",
+    "entities": [
+      {
+        "start": 9,
+        "end": 24,
+        "value": "Soccer Practice",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 9,
+        "end": 24,
+        "confidence_entity": 0.9993783235549927,
+        "value": "Soccer Practice",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "book Haircut",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "Haircut",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 5,
+        "end": 12,
+        "confidence_entity": 0.9993239641189575,
+        "value": "Haircut",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "create Budget Review",
+    "entities": [
+      {
+        "start": 7,
+        "end": 20,
+        "value": "Budget Review",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 7,
+        "end": 20,
+        "confidence_entity": 0.9994369149208069,
+        "value": "Budget Review",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "set up Coffee with Mom",
+    "entities": [
+      {
+        "start": 7,
+        "end": 22,
+        "value": "Coffee with Mom",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 7,
+        "end": 22,
+        "confidence_entity": 0.9960002303123474,
+        "value": "Coffee with Mom",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "add Weekly Standup",
+    "entities": [
+      {
+        "start": 4,
+        "end": 18,
+        "value": "Weekly Standup",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 4,
+        "end": 18,
+        "confidence_entity": 0.9986199140548706,
+        "value": "Weekly Standup",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "plan Date Night",
+    "entities": [
+      {
+        "start": 5,
+        "end": 15,
+        "value": "Date Night",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 5,
+        "end": 15,
+        "confidence_entity": 0.9948663711547852,
+        "value": "Date Night",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "schedule Math Class for Thursday",
+    "entities": [
+      {
+        "start": 9,
+        "end": 19,
+        "value": "Math Class",
+        "entity": "event_title"
+      },
+      {
+        "start": 24,
+        "end": 32,
+        "value": "Thursday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 9,
+        "end": 19,
+        "confidence_entity": 0.9975148439407349,
+        "value": "Math Class",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 24,
+        "end": 32,
+        "confidence_entity": 0.9994811415672302,
+        "value": "Thursday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "book Flight to Berlin for June 12th",
+    "entities": [
+      {
+        "start": 5,
+        "end": 21,
+        "value": "Flight to Berlin",
+        "entity": "event_title"
+      },
+      {
+        "start": 26,
+        "end": 35,
+        "value": "June 12th",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 5,
+        "end": 21,
+        "confidence_entity": 0.9934629201889038,
+        "value": "Flight to Berlin",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 26,
+        "end": 35,
+        "confidence_entity": 0.9883826375007629,
+        "value": "June 12th",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "set up Interview for tomorrow at 2pm",
+    "entities": [
+      {
+        "start": 7,
+        "end": 16,
+        "value": "Interview",
+        "entity": "event_title"
+      },
+      {
+        "start": 21,
+        "end": 36,
+        "value": "tomorrow at 2pm",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 33,
+        "end": 36,
+        "value": "2pm",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 30,
+        "end": 34,
+        "value": "at 2",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "event_title",
+        "start": 7,
+        "end": 16,
+        "confidence_entity": 0.9987095594406128,
+        "value": "Interview",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 21,
+        "end": 36,
+        "confidence_entity": 0.5636792182922363,
+        "value": "tomorrow at 2pm",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "create reminder for next week",
+    "entities": [
+      {
+        "start": 7,
+        "end": 15,
+        "value": "reminder",
+        "entity": "event_title"
+      },
+      {
+        "start": 20,
+        "end": 29,
+        "value": "next week",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 7,
+        "end": 15,
+        "confidence_entity": 0.9993166923522949,
+        "value": "reminder",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 20,
+        "end": 29,
+        "confidence_entity": 0.9997186064720154,
+        "value": "next week",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "add Gym Session for this evening",
+    "entities": [
+      {
+        "start": 4,
+        "end": 15,
+        "value": "Gym Session",
+        "entity": "event_title"
+      },
+      {
+        "start": 20,
+        "end": 32,
+        "value": "this evening",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 4,
+        "end": 15,
+        "confidence_entity": 0.9930285811424255,
+        "value": "Gym Session",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 20,
+        "end": 32,
+        "confidence_entity": 0.9992842078208923,
+        "value": "this evening",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "put Team Lunch on Friday",
+    "entities": [
+      {
+        "start": 4,
+        "end": 14,
+        "value": "Team Lunch",
+        "entity": "event_title"
+      },
+      {
+        "start": 18,
+        "end": 24,
+        "value": "Friday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 4,
+        "end": 14,
+        "confidence_entity": 0.9951466917991638,
+        "value": "Team Lunch",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 18,
+        "end": 24,
+        "confidence_entity": 0.9997666478157043,
+        "value": "friday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "schedule Dentist on March 4th",
+    "entities": [
+      {
+        "start": 9,
+        "end": 16,
+        "value": "Dentist",
+        "entity": "event_title"
+      },
+      {
+        "start": 20,
+        "end": 29,
+        "value": "March 4th",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 9,
+        "end": 16,
+        "confidence_entity": 0.9996132254600525,
+        "value": "Dentist",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 20,
+        "end": 29,
+        "confidence_entity": 0.9958248138427734,
+        "value": "March 4th",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "add Presentation on Monday morning",
+    "entities": [
+      {
+        "start": 4,
+        "end": 16,
+        "value": "Presentation",
+        "entity": "event_title"
+      },
+      {
+        "start": 20,
+        "end": 34,
+        "value": "Monday morning",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 4,
+        "end": 16,
+        "confidence_entity": 0.9994493126869202,
+        "value": "Presentation",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 20,
+        "end": 34,
+        "confidence_entity": 0.9962028861045837,
+        "value": "Monday morning",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "book Workshop on the 21st",
+    "entities": [
+      {
+        "start": 5,
+        "end": 13,
+        "value": "Workshop",
+        "entity": "event_title"
+      },
+      {
+        "start": 17,
+        "end": 25,
+        "value": "the 21st",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 5,
+        "end": 13,
+        "confidence_entity": 0.9997288584709167,
+        "value": "Workshop",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 17,
+        "end": 25,
+        "confidence_entity": 0.998146653175354,
+        "value": "the 21st",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "on Friday schedule Team Sync",
+    "entities": [
+      {
+        "start": 3,
+        "end": 9,
+        "value": "Friday",
+        "entity": "time"
+      },
+      {
+        "start": 19,
+        "end": 28,
+        "value": "Team Sync",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 3,
+        "end": 9,
+        "confidence_entity": 0.9999157190322876,
+        "value": "friday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event_title",
+        "start": 19,
+        "end": 28,
+        "confidence_entity": 0.9992617964744568,
+        "value": "Team Sync",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "for tomorrow add Doctor Appointment",
+    "entities": [
+      {
+        "start": 4,
+        "end": 12,
+        "value": "tomorrow",
+        "entity": "time"
+      },
+      {
+        "start": 17,
+        "end": 35,
+        "value": "Doctor Appointment",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 4,
+        "end": 12,
+        "confidence_entity": 0.998555600643158,
+        "value": "tomorrow",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event_title",
+        "start": 17,
+        "end": 35,
+        "confidence_entity": 0.9902626276016235,
+        "value": "Doctor Appointment",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "next Monday book Strategy Call",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "Monday",
+        "entity": "time"
+      },
+      {
+        "start": 17,
+        "end": 30,
+        "value": "Strategy Call",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.9975443482398987,
+        "value": "Monday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event_title",
+        "start": 17,
+        "end": 30,
+        "confidence_entity": 0.993602454662323,
+        "value": "Strategy Call",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "at 5pm set up Call with Client",
+    "entities": [
+      {
+        "start": 3,
+        "end": 6,
+        "value": "5pm",
+        "entity": "time"
+      },
+      {
+        "start": 14,
+        "end": 30,
+        "value": "Call with Client",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 3,
+        "end": 6,
+        "value": "5pm",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 0,
+        "end": 4,
+        "value": "at 5",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 3,
+        "end": 6,
+        "confidence_entity": 0.9863964319229126,
+        "value": "5pm",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event_title",
+        "start": 14,
+        "end": 30,
+        "confidence_entity": 0.9737626910209656,
+        "value": "Call with Client",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "in January schedule Annual Review",
+    "entities": [
+      {
+        "start": 3,
+        "end": 10,
+        "value": "January",
+        "entity": "time"
+      },
+      {
+        "start": 20,
+        "end": 33,
+        "value": "Annual Review",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 3,
+        "end": 10,
+        "confidence_entity": 0.9957167506217957,
+        "value": "January",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "event_title",
+        "start": 20,
+        "end": 33,
+        "confidence_entity": 0.9978305697441101,
+        "value": "Annual Review",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "meeting with Sarah",
+    "entities": [
+      {
+        "start": 13,
+        "end": 18,
+        "value": "Sarah",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 13,
+        "end": 18,
+        "confidence_entity": 0.9978674650192261,
+        "value": "Sarah",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "call with James on Tuesday",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "James",
+        "entity": "event_title"
+      },
+      {
+        "start": 19,
+        "end": 26,
+        "value": "Tuesday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 10,
+        "end": 15,
+        "confidence_entity": 0.9990127086639404,
+        "value": "James",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 19,
+        "end": 26,
+        "confidence_entity": 0.9995891451835632,
+        "value": "Tuesday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "lunch with the boss",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "the boss",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 11,
+        "end": 19,
+        "confidence_entity": 0.9892241358757019,
+        "value": "the boss",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "chat with support for 10 minutes",
+    "entities": [
+      {
+        "start": 10,
+        "end": 17,
+        "value": "support",
+        "entity": "event_title"
+      },
+      {
+        "start": 22,
+        "end": 32,
+        "value": "10 minutes",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 10,
+        "end": 17,
+        "confidence_entity": 0.9987867474555969,
+        "value": "support",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 22,
+        "end": 32,
+        "confidence_entity": 0.9922201037406921,
+        "value": "10 minutes",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "catch up with dad",
+    "entities": [
+      {
+        "start": 14,
+        "end": 17,
+        "value": "dad",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 14,
+        "end": 17,
+        "confidence_entity": 0.9931581616401672,
+        "value": "dad",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "schedule Conference for July 5th in Berlin",
+    "entities": [
+      {
+        "start": 9,
+        "end": 19,
+        "value": "Conference",
+        "entity": "event_title"
+      },
+      {
+        "start": 24,
+        "end": 32,
+        "value": "July 5th",
+        "entity": "time"
+      },
+      {
+        "start": 36,
+        "end": 42,
+        "value": "Berlin",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 9,
+        "end": 19,
+        "confidence_entity": 0.9974900484085083,
+        "value": "Conference",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 24,
+        "end": 32,
+        "confidence_entity": 0.9776572585105896,
+        "value": "July 5th",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "GPE",
+        "start": 36,
+        "end": 42,
+        "confidence_entity": 0.9968281388282776,
+        "value": "Berlin",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "add Dinner on Saturday at Vapiano",
+    "entities": [
+      {
+        "start": 4,
+        "end": 10,
+        "value": "Dinner",
+        "entity": "event_title"
+      },
+      {
+        "start": 14,
+        "end": 22,
+        "value": "Saturday",
+        "entity": "time"
+      },
+      {
+        "start": 26,
+        "end": 33,
+        "value": "Vapiano",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 4,
+        "end": 10,
+        "confidence_entity": 0.9992485642433167,
+        "value": "Dinner",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 14,
+        "end": 22,
+        "confidence_entity": 0.9998674392700195,
+        "value": "Saturday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "GPE",
+        "start": 26,
+        "end": 33,
+        "confidence_entity": 0.9991763234138489,
+        "value": "Vapiano",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "book Meeting next Friday in Room 404",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "Meeting",
+        "entity": "event_title"
+      },
+      {
+        "start": 18,
+        "end": 24,
+        "value": "Friday",
+        "entity": "time"
+      },
+      {
+        "start": 28,
+        "end": 36,
+        "value": "Room 404",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 5,
+        "end": 12,
+        "confidence_entity": 0.9989616870880127,
+        "value": "Meeting",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 18,
+        "end": 24,
+        "confidence_entity": 0.9988808035850525,
+        "value": "friday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "GPE",
+        "start": 28,
+        "end": 36,
+        "confidence_entity": 0.887603759765625,
+        "value": "Room 404",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "create event Party for tonight in Marburg",
+    "entities": [
+      {
+        "start": 13,
+        "end": 18,
+        "value": "Party",
+        "entity": "event_title"
+      },
+      {
+        "start": 23,
+        "end": 30,
+        "value": "tonight",
+        "entity": "time"
+      },
+      {
+        "start": 34,
+        "end": 41,
+        "value": "Marburg",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 13,
+        "end": 18,
+        "confidence_entity": 0.9966492056846619,
+        "value": "Party",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 23,
+        "end": 30,
+        "confidence_entity": 0.9975984692573547,
+        "value": "tonight",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "GPE",
+        "start": 34,
+        "end": 41,
+        "confidence_entity": 0.9968386888504028,
+        "value": "Marburg",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "set up Training on Monday at the Office",
+    "entities": [
+      {
+        "start": 7,
+        "end": 15,
+        "value": "Training",
+        "entity": "event_title"
+      },
+      {
+        "start": 19,
+        "end": 25,
+        "value": "Monday",
+        "entity": "time"
+      },
+      {
+        "start": 33,
+        "end": 39,
+        "value": "Office",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 7,
+        "end": 15,
+        "confidence_entity": 0.9996585845947266,
+        "value": "Training",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 19,
+        "end": 25,
+        "confidence_entity": 0.9983823299407959,
+        "value": "Monday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "GPE",
+        "start": 33,
+        "end": 39,
+        "confidence_entity": 0.9950194358825684,
+        "value": "office",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "pencil in Study Group",
+    "entities": [
+      {
+        "start": 10,
+        "end": 21,
+        "value": "Study Group",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 10,
+        "end": 21,
+        "confidence_entity": 0.9884795546531677,
+        "value": "Study Group",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "block out time for Focus Work",
+    "entities": [
+      {
+        "start": 19,
+        "end": 29,
+        "value": "Focus Work",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 19,
+        "end": 29,
+        "confidence_entity": 0.9977124929428101,
+        "value": "Focus Work",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "make time for Yoga on Sunday",
+    "entities": [
+      {
+        "start": 14,
+        "end": 18,
+        "value": "Yoga",
+        "entity": "event_title"
+      },
+      {
+        "start": 22,
+        "end": 28,
+        "value": "Sunday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 14,
+        "end": 18,
+        "confidence_entity": 0.9983672499656677,
+        "value": "Yoga",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 22,
+        "end": 28,
+        "confidence_entity": 0.9997792840003967,
+        "value": "Sunday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "save the date for Wedding",
+    "entities": [
+      {
+        "start": 18,
+        "end": 25,
+        "value": "Wedding",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 18,
+        "end": 25,
+        "confidence_entity": 0.9995007514953613,
+        "value": "Wedding",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "remind me to Call Mom",
+    "entities": [
+      {
+        "start": 13,
+        "end": 21,
+        "value": "Call Mom",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 13,
+        "end": 21,
+        "confidence_entity": 0.9886406660079956,
+        "value": "Call Mom",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "schedule my Driving Test",
+    "entities": [
+      {
+        "start": 12,
+        "end": 24,
+        "value": "Driving Test",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 12,
+        "end": 24,
+        "confidence_entity": 0.9817473292350769,
+        "value": "Driving Test",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "add the Final Exam",
+    "entities": [
+      {
+        "start": 8,
+        "end": 18,
+        "value": "Final Exam",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 8,
+        "end": 18,
+        "confidence_entity": 0.9973938465118408,
+        "value": "Final Exam",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "book a Table Reservation",
+    "entities": [
+      {
+        "start": 7,
+        "end": 24,
+        "value": "Table Reservation",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 7,
+        "end": 24,
+        "confidence_entity": 0.9987378716468811,
+        "value": "Table Reservation",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "set up an Oil Change",
+    "entities": [
+      {
+        "start": 10,
+        "end": 20,
+        "value": "Oil Change",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 10,
+        "end": 20,
+        "confidence_entity": 0.9973607659339905,
+        "value": "Oil Change",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "add an appointment titled Breakdance for 12th of January",
+    "entities": [
+      {
+        "start": 26,
+        "end": 36,
+        "value": "Breakdance",
+        "entity": "event_title"
+      },
+      {
+        "start": 41,
+        "end": 56,
+        "value": "12th of January",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 26,
+        "end": 36,
+        "confidence_entity": 0.9994820952415466,
+        "value": "Breakdance",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 41,
+        "end": 56,
+        "confidence_entity": 0.9978658556938171,
+        "value": "12th of January",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "add an appointment titled Meeting for 15th of February",
+    "entities": [
+      {
+        "start": 26,
+        "end": 33,
+        "value": "Meeting",
+        "entity": "event_title"
+      },
+      {
+        "start": 38,
+        "end": 54,
+        "value": "15th of February",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 26,
+        "end": 33,
+        "confidence_entity": 0.9999303817749023,
+        "value": "Meeting",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 38,
+        "end": 54,
+        "confidence_entity": 0.9988388419151306,
+        "value": "15th of February",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "schedule Lunch for 20th of March",
+    "entities": [
+      {
+        "start": 9,
+        "end": 14,
+        "value": "Lunch",
+        "entity": "event_title"
+      },
+      {
+        "start": 19,
+        "end": 32,
+        "value": "20th of March",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 9,
+        "end": 14,
+        "confidence_entity": 0.9998904466629028,
+        "value": "Lunch",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 19,
+        "end": 32,
+        "confidence_entity": 0.9970101118087769,
+        "value": "20th of March",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "book Gym for 5th of April",
+    "entities": [
+      {
+        "start": 5,
+        "end": 8,
+        "value": "Gym",
+        "entity": "event_title"
+      },
+      {
+        "start": 13,
+        "end": 25,
+        "value": "5th of April",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 5,
+        "end": 8,
+        "confidence_entity": 0.9989156723022461,
+        "value": "Gym",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 13,
+        "end": 25,
+        "confidence_entity": 0.9879025816917419,
+        "value": "5th of April",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "add Conference for 18th of May",
+    "entities": [
+      {
+        "start": 4,
+        "end": 14,
+        "value": "Conference",
+        "entity": "event_title"
+      },
+      {
+        "start": 19,
+        "end": 30,
+        "value": "18th of May",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 4,
+        "end": 14,
+        "confidence_entity": 0.9981498718261719,
+        "value": "Conference",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 19,
+        "end": 30,
+        "confidence_entity": 0.994598388671875,
+        "value": "18th of May",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "create appointment titled Doctor for 22nd of June",
+    "entities": [
+      {
+        "start": 26,
+        "end": 32,
+        "value": "Doctor",
+        "entity": "event_title"
+      },
+      {
+        "start": 37,
+        "end": 49,
+        "value": "22nd of June",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 26,
+        "end": 32,
+        "confidence_entity": 0.9997236132621765,
+        "value": "Doctor",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 37,
+        "end": 49,
+        "confidence_entity": 0.9950763583183289,
+        "value": "22nd of June",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "schedule Dinner for 30th of July",
+    "entities": [
+      {
+        "start": 9,
+        "end": 15,
+        "value": "Dinner",
+        "entity": "event_title"
+      },
+      {
+        "start": 20,
+        "end": 32,
+        "value": "30th of July",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 9,
+        "end": 15,
+        "confidence_entity": 0.9997026324272156,
+        "value": "Dinner",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 20,
+        "end": 32,
+        "confidence_entity": 0.9864503145217896,
+        "value": "30th of July",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "add appointment titled Dentist on 12th of May",
+    "entities": [
+      {
+        "start": 23,
+        "end": 30,
+        "value": "Dentist",
+        "entity": "event_title"
+      },
+      {
+        "start": 34,
+        "end": 45,
+        "value": "12th of May",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 23,
+        "end": 30,
+        "confidence_entity": 0.9998114705085754,
+        "value": "Dentist",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 34,
+        "end": 45,
+        "confidence_entity": 0.9933180809020996,
+        "value": "12th of May",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "schedule Meeting on 15th of February",
+    "entities": [
+      {
+        "start": 9,
+        "end": 16,
+        "value": "Meeting",
+        "entity": "event_title"
+      },
+      {
+        "start": 20,
+        "end": 36,
+        "value": "15th of February",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 9,
+        "end": 16,
+        "confidence_entity": 0.9992073178291321,
+        "value": "Meeting",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 20,
+        "end": 36,
+        "confidence_entity": 0.9988672733306885,
+        "value": "15th of February",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "book Lunch on 20th of March",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "Lunch",
+        "entity": "event_title"
+      },
+      {
+        "start": 14,
+        "end": 27,
+        "value": "20th of March",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 5,
+        "end": 10,
+        "confidence_entity": 0.9999085664749146,
+        "value": "Lunch",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 14,
+        "end": 27,
+        "confidence_entity": 0.9900522828102112,
+        "value": "20th of March",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "add an appointment titled XYZ",
+    "entities": [
+      {
+        "start": 26,
+        "end": 29,
+        "value": "XYZ",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 26,
+        "end": 29,
+        "confidence_entity": 0.9985907673835754,
+        "value": "XYZ",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "schedule XYZ for tomorrow",
+    "entities": [
+      {
+        "start": 9,
+        "end": 12,
+        "value": "XYZ",
+        "entity": "event_title"
+      },
+      {
+        "start": 17,
+        "end": 25,
+        "value": "tomorrow",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 9,
+        "end": 12,
+        "confidence_entity": 0.9994040727615356,
+        "value": "XYZ",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 17,
+        "end": 25,
+        "confidence_entity": 0.999794065952301,
+        "value": "tomorrow",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "create appointment XYZ",
+    "entities": [
+      {
+        "start": 19,
+        "end": 22,
+        "value": "XYZ",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 19,
+        "end": 22,
+        "confidence_entity": 0.9981551766395569,
+        "value": "XYZ",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "add XYZ on Monday",
+    "entities": [
+      {
+        "start": 4,
+        "end": 7,
+        "value": "XYZ",
+        "entity": "event_title"
+      },
+      {
+        "start": 11,
+        "end": 17,
+        "value": "Monday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 4,
+        "end": 7,
+        "confidence_entity": 0.998975396156311,
+        "value": "XYZ",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 11,
+        "end": 17,
+        "confidence_entity": 0.9997627139091492,
+        "value": "Monday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "add appointment titled XYZ",
+    "entities": [
+      {
+        "start": 23,
+        "end": 26,
+        "value": "XYZ",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 23,
+        "end": 26,
+        "confidence_entity": 0.9979943037033081,
+        "value": "XYZ",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "schedule XYZ for Monday",
+    "entities": [
+      {
+        "start": 9,
+        "end": 12,
+        "value": "XYZ",
+        "entity": "event_title"
+      },
+      {
+        "start": 17,
+        "end": 23,
+        "value": "Monday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 9,
+        "end": 12,
+        "confidence_entity": 0.999358594417572,
+        "value": "XYZ",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 17,
+        "end": 23,
+        "confidence_entity": 0.999053418636322,
+        "value": "Monday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "create XYZ on Friday",
+    "entities": [
+      {
+        "start": 7,
+        "end": 10,
+        "value": "XYZ",
+        "entity": "event_title"
+      },
+      {
+        "start": 14,
+        "end": 20,
+        "value": "Friday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 7,
+        "end": 10,
+        "confidence_entity": 0.9988096952438354,
+        "value": "XYZ",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 14,
+        "end": 20,
+        "confidence_entity": 0.9998774528503418,
+        "value": "friday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "book ABC for tomorrow",
+    "entities": [
+      {
+        "start": 5,
+        "end": 8,
+        "value": "ABC",
+        "entity": "event_title"
+      },
+      {
+        "start": 13,
+        "end": 21,
+        "value": "tomorrow",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 5,
+        "end": 8,
+        "confidence_entity": 0.9941778182983398,
+        "value": "ABC",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 13,
+        "end": 21,
+        "confidence_entity": 0.9998584985733032,
+        "value": "tomorrow",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "add Test Event",
+    "entities": [
+      {
+        "start": 4,
+        "end": 14,
+        "value": "Test Event",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 4,
+        "end": 14,
+        "confidence_entity": 0.9676645994186401,
+        "value": "Test Event",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "schedule Random Title",
+    "entities": [
+      {
+        "start": 9,
+        "end": 21,
+        "value": "Random Title",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 9,
+        "end": 21,
+        "confidence_entity": 0.9963693618774414,
+        "value": "Random Title",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "create My Event",
+    "entities": [
+      {
+        "start": 7,
+        "end": 15,
+        "value": "My Event",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 7,
+        "end": 15,
+        "confidence_entity": 0.9923606514930725,
+        "value": "My Event",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "new appointment Something",
+    "entities": [
+      {
+        "start": 16,
+        "end": 25,
+        "value": "Something",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 16,
+        "end": 25,
+        "confidence_entity": 0.9990556836128235,
+        "value": "Something",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "schedule Team Meeting on Monday",
+    "entities": [
+      {
+        "start": 9,
+        "end": 21,
+        "value": "Team Meeting",
+        "entity": "event_title"
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "value": "Monday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 9,
+        "end": 21,
+        "confidence_entity": 0.9983372688293457,
+        "value": "team meeting",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 25,
+        "end": 31,
+        "confidence_entity": 0.9996905326843262,
+        "value": "Monday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "book Lunch with mom for today",
+    "entities": [
+      {
+        "start": 5,
+        "end": 19,
+        "value": "Lunch with mom",
+        "entity": "event_title"
+      },
+      {
+        "start": 24,
+        "end": 29,
+        "value": "today",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 5,
+        "end": 19,
+        "confidence_entity": 0.9898780584335327,
+        "value": "lunch with mom",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 24,
+        "end": 29,
+        "confidence_entity": 0.9980941414833069,
+        "value": "today",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "create Oil Change appointment",
+    "entities": [
+      {
+        "start": 7,
+        "end": 17,
+        "value": "Oil Change",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 7,
+        "end": 17,
+        "confidence_entity": 0.9933927655220032,
+        "value": "Oil Change",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "add Focus Work session",
+    "entities": [
+      {
+        "start": 4,
+        "end": 14,
+        "value": "Focus Work",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 4,
+        "end": 14,
+        "confidence_entity": 0.9952202439308167,
+        "value": "Focus Work",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "schedule Driving Test",
+    "entities": [
+      {
+        "start": 9,
+        "end": 21,
+        "value": "Driving Test",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 9,
+        "end": 21,
+        "confidence_entity": 0.9798811674118042,
+        "value": "Driving Test",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "book Date Night",
+    "entities": [
+      {
+        "start": 5,
+        "end": 15,
+        "value": "Date Night",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 5,
+        "end": 15,
+        "confidence_entity": 0.9943587183952332,
+        "value": "Date Night",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "add Final Exam",
+    "entities": [
+      {
+        "start": 4,
+        "end": 14,
+        "value": "Final Exam",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 4,
+        "end": 14,
+        "confidence_entity": 0.9953463673591614,
+        "value": "Final Exam",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "schedule Conference Call for next week",
+    "entities": [
+      {
+        "start": 9,
+        "end": 24,
+        "value": "Conference Call",
+        "entity": "event_title"
+      },
+      {
+        "start": 29,
+        "end": 38,
+        "value": "next week",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 9,
+        "end": 24,
+        "confidence_entity": 0.9877709150314331,
+        "value": "Conference Call",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 29,
+        "end": 38,
+        "confidence_entity": 0.999737560749054,
+        "value": "next week",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "book Strategy Session on Friday",
+    "entities": [
+      {
+        "start": 5,
+        "end": 21,
+        "value": "Strategy Session",
+        "entity": "event_title"
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "value": "Friday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 5,
+        "end": 21,
+        "confidence_entity": 0.9994320273399353,
+        "value": "Strategy Session",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 25,
+        "end": 31,
+        "confidence_entity": 0.9998218417167664,
+        "value": "friday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "add Workshop for the 21st",
+    "entities": [
+      {
+        "start": 4,
+        "end": 12,
+        "value": "Workshop",
+        "entity": "event_title"
+      },
+      {
+        "start": 17,
+        "end": 25,
+        "value": "the 21st",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 4,
+        "end": 12,
+        "confidence_entity": 0.9990320205688477,
+        "value": "Workshop",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 17,
+        "end": 25,
+        "confidence_entity": 0.9973593354225159,
+        "value": "the 21st",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "create Annual Review in January",
+    "entities": [
+      {
+        "start": 7,
+        "end": 20,
+        "value": "Annual Review",
+        "entity": "event_title"
+      },
+      {
+        "start": 24,
+        "end": 31,
+        "value": "January",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 7,
+        "end": 20,
+        "confidence_entity": 0.9958576560020447,
+        "value": "Annual Review",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 24,
+        "end": 31,
+        "confidence_entity": 0.9884950518608093,
+        "value": "January",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "add appointment at University Library",
+    "entities": [
+      {
+        "start": 19,
+        "end": 37,
+        "value": "University Library",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 19,
+        "end": 37,
+        "value": "University Library",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "GPE",
+        "start": 19,
+        "end": 37,
+        "confidence_entity": 0.9830112457275391,
+        "value": "University Library",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "meeting in Conference Room A",
+    "entities": [
+      {
+        "start": 11,
+        "end": 28,
+        "value": "Conference Room A",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 11,
+        "end": 28,
+        "confidence_entity": 0.7075978517532349,
+        "value": "Conference Room A",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "event at Frankfurt am Main",
+    "entities": [
+      {
+        "start": 9,
+        "end": 26,
+        "value": "Frankfurt am Main",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 9,
+        "end": 26,
+        "confidence_entity": 0.8978462219238281,
+        "value": "Frankfurt",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "schedule at Room 404",
+    "entities": [
+      {
+        "start": 12,
+        "end": 20,
+        "value": "Room 404",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 12,
+        "end": 20,
+        "confidence_entity": 0.9474365711212158,
+        "value": "Room 404",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "schedule Flight to Berlin",
+    "entities": [
+      {
+        "start": 9,
+        "end": 25,
+        "value": "Flight to Berlin",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 9,
+        "end": 25,
+        "confidence_entity": 0.9969311952590942,
+        "value": "Flight to Berlin",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "book Trip to Munich",
+    "entities": [
+      {
+        "start": 5,
+        "end": 19,
+        "value": "Trip to Munich",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 5,
+        "end": 19,
+        "confidence_entity": 0.9965181350708008,
+        "value": "Trip to Munich",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "add Train to Frankfurt",
+    "entities": [
+      {
+        "start": 4,
+        "end": 22,
+        "value": "Train to Frankfurt",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 4,
+        "end": 22,
+        "confidence_entity": 0.9954953193664551,
+        "value": "Train to Frankfurt",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "schedule Dinner at 7pm",
+    "entities": [
+      {
+        "start": 9,
+        "end": 22,
+        "value": "Dinner at 7pm",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 19,
+        "end": 22,
+        "value": "7pm",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "time",
+        "start": 16,
+        "end": 20,
+        "value": "at 7",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "event_title",
+        "start": 9,
+        "end": 22,
+        "confidence_entity": 0.7477577924728394,
+        "value": "Dinner at 7pm",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "book Lunch at Vapiano",
+    "entities": [
+      {
+        "start": 5,
+        "end": 21,
+        "value": "Lunch at Vapiano",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 5,
+        "end": 21,
+        "confidence_entity": 0.8651353716850281,
+        "value": "Lunch at Vapiano",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "create event Meeting in Room 404",
+    "entities": [
+      {
+        "start": 13,
+        "end": 32,
+        "value": "Meeting in Room 404",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 13,
+        "end": 32,
+        "confidence_entity": 0.8262698650360107,
+        "value": "Meeting in Room 404",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "add Late Night Study",
+    "entities": [
+      {
+        "start": 4,
+        "end": 20,
+        "value": "Late Night Study",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 4,
+        "end": 20,
+        "confidence_entity": 0.9824380278587341,
+        "value": "Late Night Study",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "schedule Morning Run",
+    "entities": [
+      {
+        "start": 9,
+        "end": 20,
+        "value": "Morning Run",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 9,
+        "end": 20,
+        "confidence_entity": 0.9988691210746765,
+        "value": "Morning Run",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "book Weekend Getaway",
+    "entities": [
+      {
+        "start": 5,
+        "end": 20,
+        "value": "Weekend Getaway",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 5,
+        "end": 20,
+        "confidence_entity": 0.9980747699737549,
+        "value": "Weekend Getaway",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "do i have any event on Friday",
+    "entities": [
+      {
+        "start": 23,
+        "end": 29,
+        "value": "Friday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 23,
+        "end": 29,
+        "confidence_entity": 0.9999024868011475,
+        "value": "friday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "show me my schedule for tomorrow",
+    "entities": [
+      {
+        "start": 24,
+        "end": 32,
+        "value": "tomorrow",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 24,
+        "end": 32,
+        "confidence_entity": 0.9999192953109741,
+        "value": "tomorrow",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "what are my appointments for next week",
+    "entities": [
+      {
+        "start": 29,
+        "end": 38,
+        "value": "next week",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 29,
+        "end": 38,
+        "confidence_entity": 0.9996905326843262,
+        "value": "next week",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "list my events on Monday",
+    "entities": [
+      {
+        "start": 18,
+        "end": 24,
+        "value": "Monday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 18,
+        "end": 24,
+        "confidence_entity": 0.9997711777687073,
+        "value": "Monday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "what do i have planned for today",
+    "entities": [
+      {
+        "start": 27,
+        "end": 32,
+        "value": "today",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 27,
+        "end": 32,
+        "confidence_entity": 0.9987149238586426,
+        "value": "today",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "what are my meetings on Wednesday",
+    "entities": [
+      {
+        "start": 24,
+        "end": 33,
+        "value": "Wednesday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 24,
+        "end": 33,
+        "confidence_entity": 0.9998144507408142,
+        "value": "Wednesday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "what appointments do i have on Friday",
+    "entities": [
+      {
+        "start": 31,
+        "end": 37,
+        "value": "Friday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 31,
+        "end": 37,
+        "confidence_entity": 0.9999024868011475,
+        "value": "friday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "what i have scheduled for next week",
+    "entities": [
+      {
+        "start": 26,
+        "end": 35,
+        "value": "next week",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 26,
+        "end": 35,
+        "confidence_entity": 0.9997380375862122,
+        "value": "next week",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "what did i scheduled right now",
+    "entities": [
+      {
+        "start": 21,
+        "end": 30,
+        "value": "right now",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 21,
+        "end": 30,
+        "confidence_entity": 0.9894993305206299,
+        "value": "right now",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "am i busy today",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "today",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 10,
+        "end": 15,
+        "confidence_entity": 0.9992654919624329,
+        "value": "today",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "am i free tomorrow afternoon",
+    "entities": [
+      {
+        "start": 10,
+        "end": 28,
+        "value": "tomorrow afternoon",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 10,
+        "end": 28,
+        "confidence_entity": 0.9994528889656067,
+        "value": "tomorrow afternoon",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "any meetings later today",
+    "entities": [
+      {
+        "start": 13,
+        "end": 24,
+        "value": "later today",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 13,
+        "end": 24,
+        "confidence_entity": 0.9932842254638672,
+        "value": "later today",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "check my agenda for next week",
+    "entities": [
+      {
+        "start": 20,
+        "end": 29,
+        "value": "next week",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 20,
+        "end": 29,
+        "confidence_entity": 0.9997112154960632,
+        "value": "next week",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "whats on the docket for Monday",
+    "entities": [
+      {
+        "start": 24,
+        "end": 30,
+        "value": "Monday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 24,
+        "end": 30,
+        "confidence_entity": 0.999626874923706,
+        "value": "Monday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "do i have anything planned for the 12th",
+    "entities": [
+      {
+        "start": 31,
+        "end": 39,
+        "value": "the 12th",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 31,
+        "end": 39,
+        "confidence_entity": 0.9942196607589722,
+        "value": "the 12th",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "delete the meeting with Tom",
+    "entities": [
+      {
+        "start": 24,
+        "end": 27,
+        "value": "Tom",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 24,
+        "end": 27,
+        "confidence_entity": 0.9978265166282654,
+        "value": "Tom",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "remove the appointment titled Project Discussion",
+    "entities": [
+      {
+        "start": 30,
+        "end": 48,
+        "value": "Project Discussion",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 30,
+        "end": 48,
+        "confidence_entity": 0.9982476234436035,
+        "value": "Project Discussion",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "cancel my appointment on monday",
+    "entities": [
+      {
+        "start": 25,
+        "end": 31,
+        "value": "monday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 25,
+        "end": 31,
+        "confidence_entity": 0.9997746348381042,
+        "value": "Monday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "remove the event in Marburg",
+    "entities": [
+      {
+        "start": 20,
+        "end": 27,
+        "value": "Marburg",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 20,
+        "end": 27,
+        "confidence_entity": 0.9974169731140137,
+        "value": "Marburg",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "delete the event scheduled for Friday",
+    "entities": [
+      {
+        "start": 31,
+        "end": 37,
+        "value": "Friday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 31,
+        "end": 37,
+        "confidence_entity": 0.997817873954773,
+        "value": "friday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "cancel the meeting called Team Sync",
+    "entities": [
+      {
+        "start": 26,
+        "end": 35,
+        "value": "Team Sync",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 26,
+        "end": 35,
+        "confidence_entity": 0.9980204105377197,
+        "value": "Team Sync",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "clear my schedule for tomorrow",
+    "entities": [
+      {
+        "start": 22,
+        "end": 30,
+        "value": "tomorrow",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 22,
+        "end": 30,
+        "confidence_entity": 0.999852180480957,
+        "value": "tomorrow",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "remove appointment on Wednesday",
+    "entities": [
+      {
+        "start": 22,
+        "end": 31,
+        "value": "Wednesday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 22,
+        "end": 31,
+        "confidence_entity": 0.9997058510780334,
+        "value": "Wednesday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "delete Dentist",
+    "entities": [
+      {
+        "start": 7,
+        "end": 14,
+        "value": "Dentist",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 7,
+        "end": 14,
+        "confidence_entity": 0.9995810389518738,
+        "value": "Dentist",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "cancel my appointment on Wednesday",
+    "entities": [
+      {
+        "start": 25,
+        "end": 34,
+        "value": "Wednesday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 25,
+        "end": 34,
+        "confidence_entity": 0.9998451471328735,
+        "value": "Wednesday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "cancel the Dentist appointment",
+    "entities": [
+      {
+        "start": 11,
+        "end": 18,
+        "value": "Dentist",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 11,
+        "end": 18,
+        "confidence_entity": 0.9998759031295776,
+        "value": "Dentist",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "remove the meeting with John",
+    "entities": [
+      {
+        "start": 24,
+        "end": 28,
+        "value": "John",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 24,
+        "end": 28,
+        "confidence_entity": 0.9991230368614197,
+        "value": "John",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "delete the event on Tuesday",
+    "entities": [
+      {
+        "start": 20,
+        "end": 27,
+        "value": "Tuesday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 20,
+        "end": 27,
+        "confidence_entity": 0.9995399713516235,
+        "value": "Tuesday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "clear the Lunch from my schedule",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "Lunch",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 10,
+        "end": 15,
+        "confidence_entity": 0.9997523427009583,
+        "value": "Lunch",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "take Gym off my calendar",
+    "entities": [
+      {
+        "start": 5,
+        "end": 8,
+        "value": "Gym",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 5,
+        "end": 8,
+        "confidence_entity": 0.9951707720756531,
+        "value": "Gym",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "delete appointment titled Budget Review",
+    "entities": [
+      {
+        "start": 26,
+        "end": 39,
+        "value": "Budget Review",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 26,
+        "end": 39,
+        "confidence_entity": 0.9996247291564941,
+        "value": "Budget Review",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "cancel the session in Berlin",
+    "entities": [
+      {
+        "start": 22,
+        "end": 28,
+        "value": "Berlin",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 22,
+        "end": 28,
+        "confidence_entity": 0.9945566654205322,
+        "value": "Berlin",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "wipe the Project Sync",
+    "entities": [
+      {
+        "start": 9,
+        "end": 21,
+        "value": "Project Sync",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 9,
+        "end": 21,
+        "confidence_entity": 0.9987519979476929,
+        "value": "Project Sync",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "delete the Budget Review appointment",
+    "entities": [
+      {
+        "start": 11,
+        "end": 24,
+        "value": "Budget Review",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 11,
+        "end": 24,
+        "confidence_entity": 0.9985931515693665,
+        "value": "Budget Review",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "remove the Doctor appointment",
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "Doctor",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 11,
+        "end": 17,
+        "confidence_entity": 0.9991012811660767,
+        "value": "Doctor",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "cancel the Flight to Berlin",
+    "entities": [
+      {
+        "start": 11,
+        "end": 27,
+        "value": "Flight to Berlin",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 11,
+        "end": 27,
+        "confidence_entity": 0.9965276122093201,
+        "value": "Flight to Berlin",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "delete the Lunch with friends",
+    "entities": [
+      {
+        "start": 11,
+        "end": 29,
+        "value": "Lunch with friends",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 11,
+        "end": 29,
+        "confidence_entity": 0.9978389143943787,
+        "value": "Lunch with friends",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "change the place for my appointment tomorrow",
+    "entities": [
+      {
+        "start": 36,
+        "end": 44,
+        "value": "tomorrow",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 36,
+        "end": 44,
+        "confidence_entity": 0.9998546838760376,
+        "value": "tomorrow",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "move my meeting to Friday",
+    "entities": [
+      {
+        "start": 19,
+        "end": 25,
+        "value": "Friday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 19,
+        "end": 25,
+        "confidence_entity": 0.9996968507766724,
+        "value": "friday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "change the title to Course",
+    "entities": [
+      {
+        "start": 20,
+        "end": 26,
+        "value": "Course",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 20,
+        "end": 26,
+        "confidence_entity": 0.9990314245223999,
+        "value": "Course",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "reschedule my appointment to next week",
+    "entities": [
+      {
+        "start": 29,
+        "end": 38,
+        "value": "next week",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 29,
+        "end": 38,
+        "confidence_entity": 0.9997112154960632,
+        "value": "next week",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "change the location to Marburg",
+    "entities": [
+      {
+        "start": 23,
+        "end": 30,
+        "value": "Marburg",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 23,
+        "end": 30,
+        "confidence_entity": 0.9992830157279968,
+        "value": "Marburg",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "modify the location for tomorrows event",
+    "entities": [
+      {
+        "start": 24,
+        "end": 32,
+        "value": "tomorrow",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "update the venue for the appointment on Tuesday",
+    "entities": [
+      {
+        "start": 40,
+        "end": 47,
+        "value": "Tuesday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 40,
+        "end": 47,
+        "confidence_entity": 0.999437153339386,
+        "value": "Tuesday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "switch the place for tomorrow",
+    "entities": [
+      {
+        "start": 21,
+        "end": 29,
+        "value": "tomorrow",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 21,
+        "end": 29,
+        "confidence_entity": 0.9997439980506897,
+        "value": "tomorrow",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "set a new location for the meeting tomorrow",
+    "entities": [
+      {
+        "start": 35,
+        "end": 43,
+        "value": "tomorrow",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 35,
+        "end": 43,
+        "confidence_entity": 0.9988632202148438,
+        "value": "tomorrow",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "move the tomorrow appointment to a new place",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "value": "tomorrow",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 9,
+        "end": 17,
+        "confidence_entity": 0.9993141889572144,
+        "value": "tomorrow",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "change venue to Berlin",
+    "entities": [
+      {
+        "start": 16,
+        "end": 22,
+        "value": "Berlin",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 16,
+        "end": 22,
+        "confidence_entity": 0.9992115497589111,
+        "value": "Berlin",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "reschedule Dentist to next week",
+    "entities": [
+      {
+        "start": 11,
+        "end": 18,
+        "value": "Dentist",
+        "entity": "event_title"
+      },
+      {
+        "start": 22,
+        "end": 31,
+        "value": "next week",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 11,
+        "end": 18,
+        "confidence_entity": 0.9996641874313354,
+        "value": "Dentist",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "time",
+        "start": 22,
+        "end": 31,
+        "confidence_entity": 0.9995115995407104,
+        "value": "next week",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "change the time for Lunch",
+    "entities": [
+      {
+        "start": 20,
+        "end": 25,
+        "value": "Lunch",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 20,
+        "end": 25,
+        "confidence_entity": 0.9978087544441223,
+        "value": "Lunch",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "update the title to Team Sync",
+    "entities": [
+      {
+        "start": 20,
+        "end": 29,
+        "value": "Team Sync",
+        "entity": "event_title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event_title",
+        "start": 20,
+        "end": 29,
+        "confidence_entity": 0.9988352656364441,
+        "value": "Team Sync",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "switch location to Frankfurt",
+    "entities": [
+      {
+        "start": 19,
+        "end": 28,
+        "value": "Frankfurt",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 19,
+        "end": 28,
+        "confidence_entity": 0.9979990124702454,
+        "value": "Frankfurt",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "correct the date to Monday",
+    "entities": [
+      {
+        "start": 20,
+        "end": 26,
+        "value": "Monday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 20,
+        "end": 26,
+        "confidence_entity": 0.9951050281524658,
+        "value": "Monday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "make it an hour later",
+    "entities": [
+      {
+        "start": 8,
+        "end": 21,
+        "value": "an hour later",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 8,
+        "end": 21,
+        "confidence_entity": 0.9246767163276672,
+        "value": "an hour later",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "change that to Room 202",
+    "entities": [
+      {
+        "start": 15,
+        "end": 23,
+        "value": "Room 202",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 15,
+        "end": 23,
+        "confidence_entity": 0.9292570948600769,
+        "value": "Room 202",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "change that to berlin",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "value": "berlin",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 15,
+        "end": 21,
+        "confidence_entity": 0.9991555213928223,
+        "value": "Berlin",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "change the date to next tuesday",
+    "entities": [
+      {
+        "start": 19,
+        "end": 31,
+        "value": "next tuesday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 19,
+        "end": 31,
+        "confidence_entity": 0.9992648959159851,
+        "value": "next tuesday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "reschedule to thursday",
+    "entities": [
+      {
+        "start": 14,
+        "end": 22,
+        "value": "thursday",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 14,
+        "end": 22,
+        "confidence_entity": 0.9991645812988281,
+        "value": "Thursday",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "set the location as Hospital",
+    "entities": [
+      {
+        "start": 20,
+        "end": 28,
+        "value": "Hospital",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 20,
+        "end": 28,
+        "confidence_entity": 0.9937738180160522,
+        "value": "Hospital",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "set the place as Berlin",
+    "entities": [
+      {
+        "start": 17,
+        "end": 23,
+        "value": "Berlin",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 17,
+        "end": 23,
+        "confidence_entity": 0.9992971420288086,
+        "value": "Berlin",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "make it Library",
+    "entities": [
+      {
+        "start": 8,
+        "end": 15,
+        "value": "Library",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 8,
+        "end": 15,
+        "value": "Library",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "GPE",
+        "start": 8,
+        "end": 15,
+        "confidence_entity": 0.9454994201660156,
+        "value": "Library",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "change it to Hospital",
+    "entities": [
+      {
+        "start": 13,
+        "end": 21,
+        "value": "Hospital",
+        "entity": "GPE"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "GPE",
+        "start": 13,
+        "end": 21,
+        "confidence_entity": 0.9947066903114319,
+        "value": "Hospital",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  }
+]

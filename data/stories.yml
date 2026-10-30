@@ -1,0 +1,61 @@
+# ==============================================================================
+# Dialogue Management: Stories
+# ==============================================================================
+# This file defines probabilistic, multi-turn conversation flows. 
+# It provides the training data for the TEDPolicy (Transformer Embedding Dialogue),
+# allowing the system to learn contextual patterns, handle digressions, and manage
+# complex state sequences beyond strict rules.
+# ==============================================================================
+version: "3.1"
+
+stories:
+
+- story: Update appointment needs location followup
+  steps:
+    - intent: calendar_update
+    - action: action_update_appointment
+    - intent: inform
+    - action: action_update_appointment
+
+- story: create apopintment then delete it
+  steps:
+    - intent: calendar_add
+    - action: calendar_form
+    - active_loop: calendar_form
+    - active_loop: null
+    - action: action_create_appointment
+    - intent: calendar_delete_previous
+    - action: action_delete_previous_appointment
+
+- story: create appointment and list it
+  steps:
+    - intent: calendar_add
+    - action: calendar_form
+    - active_loop: calendar_form
+    - active_loop: null
+    - action: action_create_appointment
+    - intent: calendar_list
+    - action: action_list_appointments
+
+- story: asking weather then create appointment
+  steps:
+    - intent: ask_weather
+    - action: action_check_weather
+    - intent: calendar_add
+    - action: calendar_form
+    - active_loop: null
+    - action: action_create_appointment
+
+- story: Context switch - Calendar List to Weather
+  steps:
+    - intent: calendar_list
+    - action: action_list_appointments
+    - intent: ask_weather
+    - action: action_check_weather
+
+- story: Update appointment location - with GPE entity
+  steps:
+    - intent: calendar_update
+      entities:
+        - GPE: Library
+    - action: action_update_appointment

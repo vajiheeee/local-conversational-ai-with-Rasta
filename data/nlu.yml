@@ -1,0 +1,555 @@
+# ==============================================================================
+# Natural Language Understanding (NLU) Training Data
+# ==============================================================================
+# This file contains the training examples for intent classification and entity 
+# extraction. 
+# 
+# Note on Data Augmentation: 
+# To ensure model robustness against linguistic variance, the baseline dataset 
+# was synthetically expanded using LLM-assisted paraphrasing, capturing a wide 
+# distribution of edge cases and diverse command structures.
+# ==============================================================================
+
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey
+    - hey there
+    - hi there
+    - greetings
+    - what's up
+    - yo
+    - howdy
+    - sup
+    - hello there
+    - hiya
+    - good day
+
+- intent: stop
+  examples: |
+    - stop
+    - halt
+    - pause
+    - cancel
+    - enough
+    - abort
+
+- intent: affirm
+  examples: |
+    - yes
+    - yeah
+    - yep
+    - sure
+    - that sounds good
+    - correct
+    - good boy
+    - that's right
+    - Okay
+    - Ok
+    - yup
+
+- intent: deny
+  examples: |
+    - no
+    - nope
+    - not at all
+    - absolutely not
+    - I don't want to
+    - that's not right
+    - wrong
+    - I disagree
+    - that's wrong
+    - nah
+    - nay
+    - I don't like that
+    - I don't approve
+    - not interested
+    - I refuse
+    - don't do that
+
+- intent: inform
+  examples: |
+    - actually i meant [friday](time)
+    - i meant [5 pm](time)
+    - the title is [team meeting](event_title)
+    - call it [lunch with mom](event_title)
+    - [Frankfurt](GPE)
+    - [Berlin](GPE)
+    - just [Marburg](GPE)
+    - [Berlin](GPE) please
+    - the location is [Marburg](GPE)
+    - the place is [Munich](GPE)
+    - location is [Hamburg](GPE)
+    - place is [Cologne](GPE)
+    - at the [office](GPE)
+    - in the [conference room](GPE)
+    - [tomorrow](time)
+    - [3 pm](time)
+    - [next Monday](time)
+    - [this evening](time)
+    - i had an appointment
+    - there was an event
+    - i already added that
+    - it is in [frankfurt](GPE)
+    - [Restaurant](GPE)
+    - [Library](GPE)
+    - [Room 242](GPE)
+    - [FrankfurtStraße](GPE)
+    - [Lahnberg](GPE)
+    - [Gutenbergstraße](GPE)
+    - [University Library](location)
+    - [Restaurant](location)
+    - [Restaurants](location)
+    - [Library](location)
+    - [Room 242](location)
+    - [Frankfurtstraße](location)
+    - [Gutenbergstraße](location)
+    - [Lahnberg](location)
+    - Valentine
+    - Valentine's Day
+    - Dentist
+    - Exam
+    - Team meeting
+
+
+- intent: ask_weather
+  examples: |
+    - what is the weather like today
+    - how is the weather in [Marburg](GPE)
+    - will it rain in [Marburg](GPE)
+    - weather for [tomorrow](time)
+    - tell me the forecast for [Friday](time)
+    - is it sunny in [Marburg](GPE) on [Saturday](time)
+    - is it sunny in [Marburg](GPE)?
+    - check weather for [today](time) in [Frankfurt am Main](GPE)
+    - what's the weather like in [Marburg](GPE)?
+    - What will the weather be like [today](time) in [Marburg](GPE)?
+    - what will the weather be on [Friday](time) in [Frankfurt](GPE)?
+    - Will it rain there on [Saturday](time)?
+    - is it going to rain [tomorrow](time)
+    - will it be sunny [this weekend](time)
+    - what is the forecast for [Munich](GPE)
+    - will it snow [next week](time)
+    - what about the weather in [Hamburg](GPE)
+    - is it raining in [Cologne](GPE)
+    - how's the weather there
+    - how is the weather in [Marburg](GPE)
+    - what is it like outside in [Marburg](GPE)
+    - do i need a jacket in [Berlin](GPE)?
+    - is it sunny in [Marburg](GPE)?
+    - is it going to rain [tomorrow](time)
+    - do i need an umbrella for [tomorrow](time)?
+    - is it snowing in [Munich](GPE)?
+    - any storms predicted for [Hamburg](GPE)?
+    - weather for [tomorrow](time)
+    - forecast for [London](GPE) [next week](time)
+    - what is the weather in [Paris](GPE) on [Sunday](time)
+    - how does it look outside in [Marburg](GPE) right now
+    - give me the forecast for [Marburg](GPE) [today](time)
+    - is it nice out in [Marburg](GPE) [at the moment](time)
+    - whats the temperature in [Marburg](GPE)
+    - report on weather conditions in [Marburg](GPE)
+    - forecast for [Frankfurt](GPE) on [Friday](time)
+    - hows the weather looking for [Frankfurt](GPE) [this Friday](time)
+    - tell me about [Friday](time) in [Frankfurt](GPE)
+    - what should i wear in [Frankfurt](GPE) on [Friday](time)
+    - check forecast [Frankfurt](GPE) [Friday](time)
+    - any rain for [that place](GPE) [this weekend](time)
+    - sunny or cloudy in [Hamburg](GPE) [tomorrow](time)
+    - how is the wind in [Cologne](GPE)
+    - weather report for [Stuttgart](GPE)
+    - check conditions for [London](GPE) [next week](time)
+
+
+
+- intent: calendar_add
+  examples: |
+    - add an appointment titled [Dentist](event_title)
+    - create event titled [Team Meeting](event_title)
+    - add a meeting titled [Project Discussion](event_title)
+    - schedule an event titled [Lunch with friends](event_title) for [14th of December](time)
+    - add an appointment
+    - schedule a meeting
+    - book [Lunch](event_title) on [Tuesday](time)
+    - set up [Gym](event_title) for [5pm](time)
+    - add a meeting with [John](event_title)
+    - schedule a call with [Alice](event_title) for [next Monday](time)
+    - new appointment with [Dr. Smith](event_title) on [10th of June](time)
+    - add an appointment titled [Project Meeting](event_title)
+    - schedule [Doctor](event_title) for [tomorrow](time)
+    - book [Dinner](event_title) on [Monday](time)
+    - for [Wednesday](time), schedule [Team Meeting](event_title)
+    - i want to create an event
+    - set up an appointment for [Monday](time)
+    - add a meeting with [John](event_title) on [Friday](time)
+    - schedule [Denitst](event_title) for [tomorrow morning](time)
+    - book a meeting on [Wednesday](time)
+    - add an appointment titled [XYZ](event_title) for the [12th of January](time)
+    - create an appointment
+    - new appointment
+    - add [Conference](event_title) at [3pm](time)
+    - schedule an appointment titled [Doctor](event_title) for [the 8th of Feburary](time)
+    - make an appointment for [next week](time)
+    - add appoinment titled [Lunch](event_title)
+    - at an appointment titled [Dentist](event_title)
+    - at an appointment called [Meeting](event_title)
+    - had an appointment titled [Lunch](event_title)
+    - schedule an appointment titled [Doctor](event_title) for [the 8th of Feburary](time) in [University Library](GPE)
+    - add an appointment titled [Doctor](event_title) for [the 8th of Feburary](time) in [University Library](GPE)
+    - had an appointment titled [Doctor](event_title) for [the 8th of Feburary](time) in [University Library](GPE)
+    - i had an appointment titled [Dentist](event_title)
+    - i have an appointment titled [Meeting](event_title)
+    - i want an appointment titled [Lunch](event_title)
+    - appointment for [tomorrow](time)
+    - appointment on [Friday](time)
+    - schedule [Soccer Practice](event_title)
+    - book [Haircut](event_title)
+    - create [Budget Review](event_title)
+    - set up [Coffee with Mom](event_title)
+    - add [Weekly Standup](event_title)
+    - plan [Date Night](event_title)
+    - schedule [Math Class](event_title) for [Thursday](time)
+    - book [Flight to Berlin](event_title) for [June 12th](time)
+    - set up [Interview](event_title) for [tomorrow at 2pm](time)
+    - create [reminder](event_title) for [next week](time)
+    - add [Gym Session](event_title) for [this evening](time)
+    - put [Team Lunch](event_title) on [Friday](time)
+    - schedule [Dentist](event_title) on [March 4th](time)
+    - add [Presentation](event_title) on [Monday morning](time)
+    - book [Workshop](event_title) on [the 21st](time)
+    - on [Friday](time) schedule [Team Sync](event_title)
+    - for [tomorrow](time) add [Doctor Appointment](event_title)
+    - next [Monday](time) book [Strategy Call](event_title)
+    - at [5pm](time) set up [Call with Client](event_title)
+    - in [January](time) schedule [Annual Review](event_title)
+    - meeting with [Sarah](event_title)
+    - call with [James](event_title) on [Tuesday](time)
+    - lunch with [the boss](event_title)
+    - chat with [support](event_title) for [10 minutes](time)
+    - catch up with [dad](event_title)
+    - schedule [Conference](event_title) for [July 5th](time) in [Berlin](GPE)
+    - add [Dinner](event_title) on [Saturday](time) at [Vapiano](GPE)
+    - book [Meeting](event_title) next [Friday](time) in [Room 404](GPE)
+    - create event [Party](event_title) for [tonight](time) in [Marburg](GPE)
+    - set up [Training](event_title) on [Monday](time) at the [Office](GPE)
+    - pencil in [Study Group](event_title)
+    - block out time for [Focus Work](event_title)
+    - make time for [Yoga](event_title) on [Sunday](time)
+    - save the date for [Wedding](event_title)
+    - remind me to [Call Mom](event_title)
+    - schedule my [Driving Test](event_title)
+    - add the [Final Exam](event_title)
+    - book a [Table Reservation](event_title)
+    - set up an [Oil Change](event_title)
+    - add an appointment titled [Breakdance](event_title) for [12th of January](time)
+    - add an appointment titled [Meeting](event_title) for [15th of February](time)
+    - schedule [Lunch](event_title) for [20th of March](time)
+    - book [Gym](event_title) for [5th of April](time)
+    - add [Conference](event_title) for [18th of May](time)
+    - create appointment titled [Doctor](event_title) for [22nd of June](time)
+    - schedule [Dinner](event_title) for [30th of July](time)
+    - add appointment titled [Dentist](event_title) on [12th of May](time)
+    - schedule [Meeting](event_title) on [15th of February](time)
+    - book [Lunch](event_title) on [20th of March](time)
+    - add an appointment titled [XYZ](event_title)
+    - add an appointment titled [XYZ](event_title) for the [12th of January](time)
+    - schedule [XYZ](event_title) for [tomorrow](time)
+    - create appointment [XYZ](event_title)
+    - add [XYZ](event_title) on [Monday](time)
+    - add appointment titled [XYZ](event_title)
+    - schedule [XYZ](event_title) for [Monday](time)
+    - create [XYZ](event_title) on [Friday](time)
+    - book [ABC](event_title) for [tomorrow](time)
+    - add [Test Event](event_title)
+    - schedule [Random Title](event_title)
+    - create [My Event](event_title)
+    - new appointment [Something](event_title)
+     - add [Doctor Appointment](event_title) for [tomorrow](time)
+    - schedule [Team Meeting](event_title) on [Monday](time)
+    - book [Lunch with mom](event_title) for [today](time)
+    - create [Oil Change](event_title) appointment
+    - add [Focus Work](event_title) session
+    - schedule [Driving Test](event_title)
+    - book [Date Night](event_title)
+    - add [Final Exam](event_title)
+    - create [My Event](event_title)
+    - schedule [Conference Call](event_title) for [next week](time)
+    - book [Strategy Session](event_title) on [Friday](time)
+    - add [Workshop](event_title) for [the 21st](time)
+    - create [Annual Review](event_title) in [January](time)
+    - add appointment at [University Library](GPE)
+    - meeting in [Conference Room A](GPE)
+    - event at [Frankfurt am Main](GPE)
+    - schedule at [Room 404](GPE)
+    - schedule [Flight to Berlin](event_title)
+    - book [Trip to Munich](event_title)
+    - add [Train to Frankfurt](event_title)
+    - schedule [Dinner at 7pm](event_title)
+    - book [Lunch at Vapiano](event_title)
+    - create event [Meeting in Room 404](event_title)
+    - add [Late Night Study](event_title)
+    - schedule [Morning Run](event_title)
+    - book [Weekend Getaway](event_title)
+
+
+- intent: calendar_list
+  examples: |
+    - what is on my calendar
+    - list my appointments
+    - do i have any event on [Friday](time)
+    - show me my schedule
+    - show me my schedule for [tomorrow](time)
+    - what are my appointments for [next week](time)
+    - list my events on [Monday](time)
+    - what do i have planned for [today](time)
+    - what are my meetings on [Wednesday](time)
+    - what appointments do i have on [Friday](time)
+    - what i have scheduled for [next week](time)
+    - what did i scheduled [right now](time)
+    - where is my next appointment
+    - what is the location for my next appointment
+    - show my calendar
+    - what is next
+    - where is my appointment
+    - when is my next appointment
+    - what is coming up in my calendar
+    - what do i have scheduled
+    - give me my calendar
+    - give me my appointment list
+    - give me appointment's list
+    - tell me the place of my next meeting
+    - where do i need to be next
+    - location of my upcoming event
+    - where am i going for my next appointment
+    - whats the venue for my next scheduled item
+    - check location of next event
+    - am i busy [today](time)
+    - am i free [tomorrow afternoon](time)
+    - read out my calendar
+    - what does my day look like
+    - any meetings [later today](time)
+    - check my agenda for [next week](time)
+    - whats on the docket for [Monday](time)
+    - do i have anything planned for [the 12th](time)
+    - show full schedule
+    - list all events
+  
+  
+
+- intent: calendar_delete_previous
+  examples: |
+    - delete
+    - remove it
+    - delete it
+    - cancel it
+    - delete the one i just made
+    - remove the appointment i just made
+    - delete the appointment i just made
+    - delete that
+    - remove the last appointment
+    - cancel my previous event
+    - delete my last meeting
+    - delete the one i just made
+    - undo that
+    - remove the appointment i just scheduled
+    - cancel the last event i created
+    - delete the last appointment i added
+    - remove my previous meeting
+    - cancel the last event
+    - undo my last action
+    - Delete the previously created appointment
+    - remove that appointment
+    - cancel that
+    - forget that appointment
+    - forget my previous appointment
+    - delete previous appointment
+    - forget previous appointment
+    - forget previously made appointment
+    - cancel the last one
+    - erase the last entry
+    - wipe the appointment i just made
+    - trash the previous event
+    - actually delete that last one
+    - remove the entry i just added
+    - scrap that last meeting
+    - get rid of the last appointment
+    - undo my last scheduling
+    - please delete the previous item
+    - remove the most recent event
+    - take that last one off the calendar
+    - undo the creation
+
+
+- intent: calendar_delete
+  examples: |
+    - delete the meeting with [Tom](event_title)
+    - remove the appointment titled [Project Discussion](event_title)
+    - cancel my appointment on [monday](time)
+    - remove the event in [Marburg](GPE)
+    - delete the event scheduled for [Friday](time)
+    - cancel the meeting called [Team Sync](event_title)
+    - clear my schedule for [tomorrow](time)
+    - remove appointment on [Wednesday](time)
+    - delete [Dentist](event_title)
+    - cancel my appointment on [Wednesday](time)
+    - cancel the [Dentist](event_title) appointment
+    - remove the meeting with [John](event_title)
+    - delete the event on [Tuesday](time)
+    - clear the [Lunch](event_title) from my schedule
+    - take [Gym](event_title) off my calendar
+    - remove the [9am](time) meeting
+    - delete appointment titled [Budget Review](event_title)
+    - cancel the session in [Berlin](GPE)
+    - wipe the [Project Sync](event_title)
+    - delete the meeting with [Tom](event_title)
+    - remove the appointment titled [Project Discussion](event_title)
+    - cancel my appointment on [monday](time)
+    - remove the event in [Marburg](GPE)
+    - delete the event scheduled for [Friday](time)
+    - cancel the meeting called [Team Sync](event_title)
+    - clear my schedule for [tomorrow](time)
+    - remove appointment on [Wednesday](time)
+    - delete [Dentist](event_title)
+    - cancel the [Dentist](event_title) appointment
+    - remove the meeting with [John](event_title)
+    - delete the event on [Tuesday](time)
+    - clear the [Lunch](event_title) from my schedule
+    - take [Gym](event_title) off my calendar
+    - remove the [9am](time) meeting
+    - delete appointment titled [Budget Review](event_title)
+    - cancel the session in [Berlin](GPE)
+    - wipe the [Project Sync](event_title)
+    - delete the [Budget Review](event_title) appointment
+    - remove the [Doctor](event_title) appointment
+    - cancel the [Flight to Berlin](event_title)
+    - delete the [Lunch with friends](event_title)
+
+
+- intent: calendar_update
+  examples: |
+    - change the place for my appointment
+    - change the place for my next appointment
+    - change the place for my appointment [tomorrow](time)
+    - update the event
+    - update the appointment
+    - update the appointment time
+    - move my meeting to [Friday](time)
+    - change the title to [Course](event_title)
+    - reschedule my appointment to [next week](time)
+    - change the location to [Marburg](GPE)
+    - update the time to [3 pm](time)
+    - reschedule the appointment
+    - change my previous appointment location
+    - update my last appointment
+    - modify the previous event
+    - change location for my last appointment
+    - update location for my previous appointment
+    - move my appointment to a different location
+    - i want to change where my appointment is.
+    - modify the location for [tomorrow](time)s event
+    - update the venue for the appointment on [Tuesday](time)
+    - switch the place for [tomorrow](time)
+    - set a new location for the meeting [tomorrow](time)
+    - move the [tomorrow](time) appointment to a new place
+    - change venue to [Berlin](GPE)
+    - reschedule [Dentist](event_title) to [next week](time)
+    - move the meeting to [5pm](time)
+    - change the time for [Lunch](event_title)
+    - update the title to [Team Sync](event_title)
+    - switch location to [Frankfurt](GPE)
+    - correct the date to [Monday](time)
+    - make it [an hour later](time)
+    - change that to [Room 202](GPE)
+    - change that to [berlin](GPE)
+    - set the time to [3 pm](time)
+    - change the date to [next tuesday](time)
+    - reschedule to [thursday](time)
+    - set the location as [Hospital](GPE)
+    - set the place as [Berlin](GPE)
+    - make it [Library](GPE)
+    - change it to [Hospital](GPE)
+
+- intent: skip
+  examples: |
+    - skip
+    - skip it
+    - no location
+    - nowhere
+    - none
+    - no place
+    - i don't have a location
+    - no specific place
+    - i don't want to add a location
+    - i don't want to add a place
+    - i don't want to add a location for this appointment
+    - i don't want to add a place for this appointment
+    - leave it empty
+    - no location needs to be specified
+    - Skipudio
+    - Escepio
+    - escapeio
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - see you
+    - talk to you later
+    - catch you later
+    - I'm leaving
+    - I have to go
+    - gotta go
+    - farewell
+    - have a good day
+    - until next time
+    - I'm done for now
+    - exit
+    - quit
+    - close
+    - end conversation
+
+# Entity Synonyms
+- synonym: Marburg
+  examples: |
+    - Marburgo
+    - Marborough
+    - Marbourg
+
+- synonym: Frankfurt
+  examples: |
+    - Frankfort
+    - Frankfurt am Main
+    - Frankfurth
+
+- synonym: Munich
+  examples: |
+    - Muenchen
+    - München
+    - Munchen
+
+- synonym: Berlin
+  examples: |
+    - Belin
+    - Berling
+    - Berlinio
+
+- regex: time
+  examples: |
+    - \d{1,2}\s*(am|pm|AM|PM)
+    - \d{1,2}:\d{2}\s*(am|pm|AM|PM)
+    - at \d{1,2}
+  
+- lookup: location
+  examples: |
+    - University Library
+    - Library
+    - Restaurant
+    - Room 242
+    - Lahnberg
+    - Gutenbergstraße
+    - Frankfurtstraße

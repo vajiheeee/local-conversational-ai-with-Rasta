@@ -1,0 +1,111 @@
+# ==============================================================================
+# Dialogue Management: Rules
+# ==============================================================================
+# This file defines strict, deterministic conversation paths. Unlike probabilistic 
+# stories.
+
+# Key Uses:
+# - Form Activation & Deactivation (Context boundaries)
+# - Global Fallbacks & Interruptions (e.g., stopping an active form)
+# - Single-turn interactions (e.g., Greetings, Weather Checks)
+# ==============================================================================
+version: "3.1"
+
+rules:
+
+# Greet
+- rule: Say hello
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+# Weather logic
+- rule: Answer weather questions
+  condition:
+    - active_loop: null
+  steps:
+    - intent: ask_weather
+    - action: action_check_weather
+
+# Weather interrupts form
+- rule: Weather interrupts calendar form
+  condition:
+    - active_loop: calendar_form
+  steps:
+    - intent: ask_weather
+    - action: action_deactivate_loop
+    - active_loop: null
+    - action: action_check_weather
+
+# List interrupts form
+- rule: List interrupts calendar form
+  condition:
+    - active_loop: calendar_form
+  steps:
+    - intent: calendar_list
+    - action: action_deactivate_loop
+    - active_loop: null
+    - action: action_list_appointments
+
+# Calendar ADD Logic
+- rule: Activate Calendar Forms
+  steps:
+    - intent: calendar_add
+    - action: calendar_form
+    - active_loop: calendar_form
+
+- rule: Submit Calendar Form
+  condition:
+   - active_loop: calendar_form
+  steps:
+    - action: calendar_form
+    - active_loop: null
+    - slot_was_set:
+        - requested_slot: null
+    - action: action_create_appointment
+  
+# Cancelation logic
+- rule: Cancel active form
+  condition:
+    - active_loop: calendar_form
+  steps:
+    - intent: stop
+    - action: action_deactivate_loop
+    - active_loop: null
+    - action: utter_cancelled
+
+# Generic rules for commands
+- rule: List appointments
+  steps:
+    - intent: calendar_list
+    - action: action_list_appointments
+  
+- rule: Delete Previous appointment
+  steps:
+    - intent: calendar_delete_previous
+    - action: action_delete_previous_appointment
+
+- rule: Delete specific appointment
+  steps:
+    - intent: calendar_delete
+    - action: action_delete_appointment
+  
+- rule: Update appointment
+  steps:
+    - intent: calendar_update
+    - action: action_update_appointment
+
+# Goodbye
+- rule: Say goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- rule: Say goodbye from form
+  condition:
+    - active_loop: calendar_form
+  steps:
+    - intent: goodbye
+    - action: action_deactivate_loop
+    - active_loop: null
+    - action: utter_goodbye
